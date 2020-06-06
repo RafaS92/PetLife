@@ -7,6 +7,7 @@ class CreateBookings < ActiveRecord::Migration[6.0]
       t.string :client_notes
       t.datetime :arrival
       t.datetime :departure
+      t.string :location
       t.integer :fee
     end
   end

@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 2020_06_05_200240) do
     t.string "client_notes"
     t.datetime "arrival"
     t.datetime "departure"
+    t.string "location"
     t.integer "fee"
   end
 
