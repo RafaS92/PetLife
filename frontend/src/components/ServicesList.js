@@ -1,7 +1,16 @@
 import React from "react";
 import { Jumbotron } from "react-bootstrap";
+import ModalBasic from "./ModalBasic";
+import ModalSilver from "./ModalSilver";
+import ModalGold from "./ModalGold";
+import ModalPlatinum from "./ModalPlatinum";
 
 export default class ServiceList extends React.Component {
+  openModal = (e) => {
+    e.preventDefault();
+    this.modal.open();
+  };
+
   render() {
     return (
       <div>
@@ -36,7 +45,12 @@ export default class ServiceList extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a class="btn btn-primary">Show details</a>
+                  <a onClick={this.openModal}></a>
+                  <ModalBasic
+                    ref={(node) => {
+                      this.modal = node;
+                    }}
+                  />
                 </div>
               </div>
             </div>
@@ -52,7 +66,12 @@ export default class ServiceList extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a class="btn btn-primary">Show details</a>
+                  <a onClick={this.openModal}></a>
+                  <ModalSilver
+                    ref={(node) => {
+                      this.modal = node;
+                    }}
+                  />
                 </div>
               </div>
             </div>
@@ -68,7 +87,12 @@ export default class ServiceList extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a class="btn btn-primary">Show details</a>
+                  <a onClick={this.openModal}></a>
+                  <ModalGold
+                    ref={(node) => {
+                      this.modal = node;
+                    }}
+                  />
                 </div>
               </div>
             </div>
@@ -84,7 +108,12 @@ export default class ServiceList extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a class="btn btn-primary">Show details</a>
+                  <a onClick={this.openModal}></a>
+                  <ModalPlatinum
+                    ref={(node) => {
+                      this.modal = node;
+                    }}
+                  />
                 </div>
               </div>
             </div>

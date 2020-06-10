@@ -2,6 +2,10 @@ import React from "react";
 // import Jumbotron from "./Jumbotron";
 import { Jumbotron, Button, Carousel, Container } from "react-bootstrap";
 import Location from "./Location";
+import ModalBasic from "./ModalBasic";
+import ModalSilver from "./ModalSilver";
+import ModalGold from "./ModalGold";
+import ModalPlatinum from "./ModalPlatinum";
 
 class Home extends React.Component {
   render() {
@@ -87,6 +91,23 @@ class Home extends React.Component {
           </Container>
         </Jumbotron>
 
+        <Jumbotron className="Jumbotron-card2">
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Are you ready for the best experience?</h1>
+              <p class="lead">
+                When traveling with dogs, one thing is certain. Poop happens.
+                For those times when you forgot to pack your poop bags and need
+                to find the closest store in an unfamiliar town, or even worse,
+                when you need to find an emergency veterinarian open at 4:00am
+                in the morning, turn to our directory of pet businesses in
+                Houston,Texas for information on our favorite pet stores,
+                veterinarians, doggie daycare facilities, sitters, groomers,
+                trainers, and other pet professionals in Houston,Texas.
+              </p>
+            </div>
+          </div>
+        </Jumbotron>
         <Jumbotron className="Jumbotron-card">
           <h1 class="display-4">Services</h1>
           <div className="row row-cols-1 row-cols-md-4">
@@ -101,7 +122,12 @@ class Home extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a class="btn btn-warning">Show details</a>
+                  <a onClick={this.openModal}></a>
+                  <ModalBasic
+                    ref={(node) => {
+                      this.modal = node;
+                    }}
+                  />
                 </div>
               </div>
             </div>
@@ -117,7 +143,12 @@ class Home extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a class="btn btn-warning">Show details</a>
+                  <a onClick={this.openModal}></a>
+                  <ModalSilver
+                    ref={(node) => {
+                      this.modal = node;
+                    }}
+                  />
                 </div>
               </div>
             </div>
@@ -133,7 +164,12 @@ class Home extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a class="btn btn-warning">Show details</a>
+                  <a onClick={this.openModal}></a>
+                  <ModalGold
+                    ref={(node) => {
+                      this.modal = node;
+                    }}
+                  />
                 </div>
               </div>
             </div>
@@ -149,7 +185,12 @@ class Home extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a class="btn btn-warning">Show details</a>
+                  <a onClick={this.openModal}></a>
+                  <ModalPlatinum
+                    ref={(node) => {
+                      this.modal = node;
+                    }}
+                  />
                 </div>
               </div>
             </div>

@@ -9,6 +9,8 @@ import NavBar from "./components/NavBar";
 import ServicesList from "./components/ServicesList";
 import Location from "./components/Location";
 import { Jumbotron, Button, Carousel, Container } from "react-bootstrap";
+import { Modal } from "react-modal";
+import ModalBasic from "./components/ModalBasic";
 
 class App extends React.Component {
   render() {
@@ -21,6 +23,7 @@ class App extends React.Component {
             <Route exact path="/" component={Home} />
             <Route exact path="/services" component={ServicesList} />
             <Route exact path="/locations" component={Location} />
+            <Route exact path="/modalbasic" component={ModalBasic} />
           </Switch>
           <Jumbotron fluid className="Jumbotron-bottom">
             <div className="row row-cols-2 row-cols-md-2">
