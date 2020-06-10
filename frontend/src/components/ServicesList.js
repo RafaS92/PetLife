@@ -1,5 +1,5 @@
 import React from "react";
-import { Jumbotron, Button, Carousel } from "react-bootstrap";
+import { Jumbotron } from "react-bootstrap";
 
 export default class ServiceList extends React.Component {
   render() {
@@ -36,7 +36,7 @@ export default class ServiceList extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a class="btn btn-warning">Show details</a>
+                  <a class="btn btn-primary">Show details</a>
                 </div>
               </div>
             </div>
@@ -52,7 +52,7 @@ export default class ServiceList extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a class="btn btn-warning">Show details</a>
+                  <a class="btn btn-primary">Show details</a>
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@ export default class ServiceList extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a class="btn btn-warning">Show details</a>
+                  <a class="btn btn-primary">Show details</a>
                 </div>
               </div>
             </div>
@@ -84,7 +84,7 @@ export default class ServiceList extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a class="btn btn-warning">Show details</a>
+                  <a class="btn btn-primary">Show details</a>
                 </div>
               </div>
             </div>

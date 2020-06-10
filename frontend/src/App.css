@@ -21,36 +21,200 @@
   color: white;
 }
 
-.carousel {
-  padding-top: 80px;
+.main-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  font-size: 5em;
+  color: transparent;
+  text-transform: uppercase;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.main-title span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #000;
+  transition: 0.5%;
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+  overflow: hidden;
+}
+
+.main-title:hover span:nth-child(1) {
+  transform: translateY(-18px);
+}
+
+.main-title span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #000;
+  transition: 0.5%;
+  clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+  overflow: hidden;
+}
+
+.main-title:hover span:nth-child(2) {
+  transform: translateY(18px);
+}
+
+.main-title span:nth-child(3) {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) scaleY(0);
+  width: 91%;
+  color: #000;
+  background: rgb(28, 229, 236);
+  font-size: 0.25em;
+  font-weight: 500;
+  letter-spacing: 0.7em;
+  text-emphasis: center;
+  padding-left: 20px;
+  margin-left: 5px;
+  transition: 0.5s;
+}
+
+.main-title:hover span:nth-child(3) {
+  transform: translateY(-50%) scaleY(1);
+}
+
+.title {
+  color: rgb(1, 31, 201);
+  font-style: oblique;
   font-weight: bold;
-  margin-top: 5px;
+  font-size: 50px;
+}
+
+.title2 {
+  color: rgb(1, 2, 12);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 30px;
   margin-bottom: 100px;
-  padding: 50px;
+  padding: 30px;
+}
+
+.title3 {
+  color: rgb(1, 2, 12);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 90px;
+}
+
+.subtitle {
+  color: rgb(247, 153, 11);
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.carousel-item img {
+  padding-top: 10px;
+  font-weight: bold;
+  height: 450px;
+  width: 100%;
+}
+
+.carousel-indicators {
+  visibility: hidden;
 }
 
 .Jumbotron {
-  background-image: url("https://pluspng.com/img-png/paw-png-hd-black-gray-paw-texture-composition-260.jpg");
-  background-color: darkorange;
-  padding-top: 50px;
+  background-color: rgb(238, 229, 229);
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-top: 10px;
   font-weight: bold;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  padding: 100px;
-  border-radius: 50px;
+  padding: 20px;
   background-size: cover;
   background-position: center;
+}
+
+.img-jumbotron {
+  width: 80%;
+  height: 200px;
+}
+
+.img-jumbotron2 {
+  margin-top: 40px;
+  width: 90%;
+  height: 250px;
+}
+
+.img-map {
+  width: 70%;
+  height: 200px;
+}
+
+.Jumbotron3 {
+  background-image: url("https://cdn.hipwallpaper.com/i/11/35/1oi7h9.jpg");
+  padding-top: 10px;
+  font-weight: bold;
+  padding: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.Jumbotron4 {
+  background-color: rgb(233, 230, 230);
+  font-weight: bold;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0px;
+}
+
+.Jumbotron-bottom {
+  background-color: rgb(3, 141, 175);
+  font-style: italic;
+  color: aliceblue;
+  padding: 50px;
+  margin-bottom: 0px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 490px;
+}
+
+.Jumbotron-bottom2 {
+  background-color: rgba(6, 6, 12, 0.664);
+  font-style: italic;
+  font-size: 1.5em;
+  color: aliceblue;
+  padding: 10px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.text4 {
+  color: rgb(7, 6, 6);
+  font-style: oblique;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.card3 {
+  background-color: rgb(140, 216, 247);
+  padding-top: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  padding: 30px;
   box-shadow: 10px 10px 5px 0px black;
 }
 
 .Jumbotron-card {
-  background-color: goldenrod;
+  background-color: rgb(243, 240, 231);
   padding-top: 10px;
   font-weight: bold;
-  margin-top: 30px;
-  margin-bottom: 100px;
-  padding: 30px;
-  border-radius: 90px;
+  padding: 40px;
   background-size: cover;
   background-position: center;
   box-shadow: 10px 10px 5px 0px black;
@@ -61,9 +225,7 @@
   padding-top: 20px;
   font-weight: bold;
   margin-top: 30px;
-  margin-bottom: 100px;
   padding: 50px;
-  border-collapse: 50px;
   background-size: cover;
   background-position: center;
   box-shadow: 10px 10px 5px 0px black;
@@ -79,51 +241,4 @@
 
 .inner:hover img {
   transform: scale(1.5);
-}
-
-/*---Media Queries --*/
-@media (max-width: 992px) {
-}
-@media (max-width: 768px) {
-}
-@media (max-width: 576px) {
-}
-
-/*---Firefox Bug Fix --*/
-.carousel-item {
-  width: 100%;
-  height: 60%;
-}
-/*--- Fixed Background Image --*/
-figure {
-  position: relative;
-  width: 100%;
-  height: 60%;
-  margin: 0 !important;
-}
-/* .fixed-wrap {
-  clip: rect(0, auto, auto, 0);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-} */
-/* #fixed {
-  background-image: url("img/mac.png");
-  position: fixed;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  will-change: transform;
-} */
-/*--- Bootstrap Padding Fix --*/
-[class*="col-"] {
-  padding: 1rem;
 }

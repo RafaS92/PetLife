@@ -17,9 +17,9 @@ export default class NavBar extends React.Component {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/Services">Services</Nav.Link>
-            <Nav.Link href="#pricing">Booking</Nav.Link>
-            <Nav.Link href="#pricing">Location</Nav.Link>
+            <Nav.Link href="/services">Services</Nav.Link>
+            <Nav.Link href="#/">Booking</Nav.Link>
+            <Nav.Link href="/locations">Location</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="#deets">More deets</Nav.Link>
