@@ -8,7 +8,13 @@ import ModalGold from "./ModalGold";
 import ModalPlatinum from "./ModalPlatinum";
 
 class Home extends React.Component {
+  state = {
+    current_user_id: this.props.location.state,
+    user: {},
+  };
+
   render() {
+    console.log(this.props.location.state);
     return (
       <div>
         <Jumbotron fluid className="Jumbotron">
@@ -91,23 +97,6 @@ class Home extends React.Component {
           </Container>
         </Jumbotron>
 
-        <Jumbotron className="Jumbotron-card2">
-          <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <h1 class="display-4">Are you ready for the best experience?</h1>
-              <p class="lead">
-                When traveling with dogs, one thing is certain. Poop happens.
-                For those times when you forgot to pack your poop bags and need
-                to find the closest store in an unfamiliar town, or even worse,
-                when you need to find an emergency veterinarian open at 4:00am
-                in the morning, turn to our directory of pet businesses in
-                Houston,Texas for information on our favorite pet stores,
-                veterinarians, doggie daycare facilities, sitters, groomers,
-                trainers, and other pet professionals in Houston,Texas.
-              </p>
-            </div>
-          </div>
-        </Jumbotron>
         <Jumbotron className="Jumbotron-card">
           <h1 class="display-4">Services</h1>
           <div className="row row-cols-1 row-cols-md-4">

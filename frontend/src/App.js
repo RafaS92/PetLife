@@ -8,9 +8,9 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import ServicesList from "./components/ServicesList";
 import Location from "./components/Location";
-import { Jumbotron, Button, Carousel, Container } from "react-bootstrap";
-import { Modal } from "react-modal";
-import ModalBasic from "./components/ModalBasic";
+import { Jumbotron } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import Booking from "./components/Booking";
 
 class App extends React.Component {
   render() {
@@ -23,21 +23,11 @@ class App extends React.Component {
             <Route exact path="/" component={Home} />
             <Route exact path="/services" component={ServicesList} />
             <Route exact path="/locations" component={Location} />
-            <Route exact path="/modalbasic" component={ModalBasic} />
+            <Route exact path="/booking" component={Booking} />
           </Switch>
           <Jumbotron fluid className="Jumbotron-bottom">
-            <div className="row row-cols-2 row-cols-md-2">
+            <div className="row row-cols-2 row-cols-md-3">
               <div className="col mb-2 ">
-                <h2>CONTACT US</h2>
-                <p>
-                  Phone: (832) 920-0685
-                  <br />
-                  Fax: (281) 403-7701
-                  <br />
-                  Email: bestservice@petlife.com
-                  <br />
-                  Pet Life <br />
-                </p>
                 <br />
                 <br />
                 <br />
@@ -47,6 +37,16 @@ class App extends React.Component {
               </div>
               <div className="col mb-2 ">
                 <div>
+                  <h2>CONTACT US</h2>
+                  <p>
+                    Phone: (832) 920-0685
+                    <br />
+                    Fax: (281) 403-7701
+                    <br />
+                    Email: bestservice@petlife.com
+                    <br />
+                    Pet Life <br />
+                  </p>
                   <h2>HOURS OF OPERATION</h2>
                   <p>
                     Monday – Friday: 7:00am to 6:30pm
@@ -55,11 +55,14 @@ class App extends React.Component {
                     <br />
                     Sunday: 10:00am to 6:00pm
                   </p>
-                  <br />
-                  <h2>LOCATIONS</h2>
+                </div>
+              </div>
+              <div className="col mb-2 ">
+                <h2>LOCATIONS</h2>
+                <Link to={{ pathname: "/locations" }}>
                   <br />
                   <img src="/images/map.jpg" className="img-map" />
-                </div>
+                </Link>
               </div>
             </div>
           </Jumbotron>

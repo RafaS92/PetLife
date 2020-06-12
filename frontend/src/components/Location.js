@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Table from "react-bootstrap/Table";
 import {
   GoogleMap,
   withScriptjs,
@@ -67,6 +68,52 @@ export default function Location() {
         containerElement={<div style={{ height: `500px` }} />}
         mapElement={<div style={{ height: `100%` }} />}
       />
+
+      <br />
+      <Table striped bordered hover>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Location</th>
+            <th>Address</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Downtown</td>
+            <td>
+              <a
+                href={`https://maps.google.com/maps/search/?api=1&query=29.7643,-95.3674`}
+              >
+                "410 Bagby St, Houston, TX 77002"
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>South Houston</td>
+            <td>
+              <a
+                href={`https://maps.google.com/maps/search/?api=1&query=29.6827,-95.4127`}
+              >
+                "1 Reliant Park, Houston, TX 77054"
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>The Heights</td>
+            <td>
+              <a
+                href={`https://maps.google.com/maps/search/?api=1&query=29.8081,-95.4066`}
+              >
+                "525 W 24th St, Houston, TX 77008"
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </Table>
     </div>
   );
 }
