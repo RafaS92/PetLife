@@ -5,7 +5,7 @@ import { Jumbotron, Container, Button, Form, Row, Col } from "react-bootstrap";
 Modal.setAppElement("#root");
 
 export default function ModalCreatePet() {
-  const [pet, setPet] = useState([]);
+  const [pet, setPet] = useState("");
 
   const handleChange = (e) => {
     // console.log(e.target.value);
@@ -41,8 +41,7 @@ export default function ModalCreatePet() {
       .then((resp) => resp.json())
       .then((newPet) => {
         setPet({
-          pet: pet,
-          newPet,
+          pet: { ...pet, newPet },
         });
       });
     alert("ya chingaste morro");
@@ -52,13 +51,13 @@ export default function ModalCreatePet() {
   return (
     <div>
       <button onClick={() => setModalIsOpen(true)} className="btn btn-primary">
-        PET!!PET!!PET!!
+        Register
       </button>
 
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={() => setModalIsOpen(false)}
-        className="sizemodal"
+        className="sizemodal2"
       >
         <Jumbotron className="JumbotronF" fluid>
           <Container>
@@ -72,8 +71,8 @@ export default function ModalCreatePet() {
               <div className="col mb-2 card4">
                 <div className="container">
                   <Row>
+                    <h1>Register Your Pet</h1>
                     <Col sm={8}>
-                      <h1>Register Your Pet</h1>
                       <Form onSubmit={handleSubmit}>
                         <Form.Group controlId="PetName">
                           <Form.Label>Pet Name</Form.Label>

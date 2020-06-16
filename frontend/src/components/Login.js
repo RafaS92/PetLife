@@ -27,6 +27,7 @@ export function Login(props) {
     let { success, id } = await response.json();
     if (success) {
       localStorage.id = id;
+      // localStorage.username = username;
       props.history.push("/", id);
     } else {
       alert("incorrect");

@@ -166,6 +166,7 @@
   background-color: rgba(252, 190, 57, 0.473);
   font-weight: bold;
   padding: 30px;
+  margin-top: 100px;
   background-repeat: no-repeat;
   background-size: 1400px 390px;
   border-style: solid;
@@ -174,6 +175,24 @@
   animation: myfirst 0.8s 1;
   animation-direction: alternate;
 }
+
+.Jumbotron-title {
+  background-image: url("https://photos.bringfido.com/photo/2016/08/11/Japan_Tokyo_Yoyogi_Park_dog_run_iStock_5899626_LARGE_Robert_Scoverski.jpg?size=hero&density=2x");
+  background-size: 100% 120%;
+  position: relative;
+  background-position: absolute;
+  text-align-last: left;
+  text-indent: initial;
+  background-repeat: no-repeat, repeat;
+  color: white;
+  height: 400px;
+}
+
+.Jumbotron-title h1 {
+  position: relative;
+  left: 900px;
+}
+
 .JumbotronF {
   background-image: url("https://cdn.hipwallpaper.com/i/11/35/1oi7h9.jpg");
   font-weight: bold;
@@ -185,6 +204,8 @@
   position: relative;
   animation: mysecond 0.8s 1;
   animation-direction: alternate;
+  height: auto;
+  margin-top: 70px;
 }
 
 .Jumbotron4 {
@@ -194,6 +215,13 @@
   background-size: cover;
   background-position: center;
   margin-bottom: 0px;
+}
+
+.Jumbotron6 {
+  background-image: url("https://cdn.hipwallpaper.com/i/11/35/1oi7h9.jpg");
+
+  padding: 10px;
+  color: white;
 }
 
 .Jumbotron-bottom {
@@ -243,13 +271,28 @@
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 100px;
+  height: auto;
   padding: 30px;
   box-shadow: 10px 10px 5px 0px black;
 }
 
-.Jumbotron-card {
-  background-color: rgb(243, 240, 231);
+.card5 {
+  background-image: url("https://images.assetsdelivery.com/compings_v2/sgtsagan/sgtsagan1905/sgtsagan190500392.jpg");
   padding-top: 10px;
+  font-weight: bold;
+  width: 500px;
+  height: 550px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  padding: 30px;
+  box-shadow: 10px 10px 5px 0px black;
+  align-self: center;
+}
+
+.Jumbotron-card {
+  background-color: #f3f3f3;
+
   font-weight: bold;
   padding: 40px;
   background-size: cover;
@@ -288,17 +331,114 @@
 }
 
 .img-form {
-  margin-top: 20px;
+  width: 80%;
+  height: 290px;
+  margin-left: 90px;
+  margin-top: 90px;
+}
+
+img-form-jumbo {
+  size: auto;
+}
+
+.card-img-top2 {
   width: 80%;
   height: 290px;
 }
 
-.sizemodal {
+.sizemodal2 {
   width: 90%;
   height: 290px;
   padding-top: 90px;
   padding-bottom: 30px;
   padding-left: 90px;
+}
+.sizemodal3 {
+  width: 90%;
+  height: 290px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 90px;
+}
+
+.container3 {
+  width: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.container3 .carta {
+  position: relative;
+  cursor: pointer;
+}
+
+.container3 .carta .face {
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.container3 .carta .face.face1 {
+  position: relative;
+  background-image: url("https://cdn.hipwallpaper.com/i/11/35/1oi7h9.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(200px);
+}
+
+.container3 .carta:hover .face.face1 {
+  background: rgb(235, 27, 61);
+  transform: translateY(0px);
+}
+
+.container3 .carta .face.face2 {
+  position: relative;
+  background: rgba(255, 224, 122, 0.432);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+
+.container3 .carta .face.face2 {
+  transform: translateY(0px);
+}
+
+.container3 .carta .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+}
+
+.container3 .carta .face.face2 .content {
+  transition: 0.5;
+  color: rgb(0, 0, 0);
+}
+
+.container3 .carta:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.container3 .carta .face.face1 .content img {
+  width: 300px;
+  height: 163px;
+  object-fit: fill;
+}
+
+.container3 .carta .face.face1 .content h3 {
+  margin: 10px 0 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 @keyframes myfirst {
@@ -327,4 +467,66 @@
     left: 0px;
     top: 0px;
   }
+}
+
+.Jumbotron-title2 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 55vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgba(0, 0, 0, 0.644);
+}
+
+.banner video {
+  position: relative;
+  size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 680px;
+  margin-top: 0;
+  object-fit: cover;
+}
+
+.banner h2 {
+  position: absolute;
+  left: 0;
+  top: 1%;
+  width: 98%;
+  height: 10%;
+  font-size: 11vw;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.726);
+  line-height: 60vh;
+  mix-blend-mode: screen;
+  font-style: italic;
+}
+
+.banner p {
+  position: absolute;
+  left: 600px;
+  top: 35%;
+  width: 98%;
+  height: 10%;
+  font-size: 2vw;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  line-height: 60vh;
+  mix-blend-mode: screen;
+}
+
+.button-form {
+  margin-top: 290px;
+  margin-left: 150px;
 }

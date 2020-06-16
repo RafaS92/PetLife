@@ -11,6 +11,8 @@ import Location from "./components/Location";
 import { Jumbotron } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Booking from "./components/Booking";
+import Comunity from "./components/Comunity";
+import ReviewList from "./components/ReviewList";
 
 class App extends React.Component {
   render() {
@@ -24,6 +26,8 @@ class App extends React.Component {
             <Route exact path="/services" component={ServicesList} />
             <Route exact path="/locations" component={Location} />
             <Route exact path="/booking" component={Booking} />
+            <Route exact path="/comunity" component={Comunity} />
+            <Route exact path="/r" component={ReviewList} />
           </Switch>
           <Jumbotron fluid className="Jumbotron-bottom">
             <div className="row row-cols-2 row-cols-md-3">

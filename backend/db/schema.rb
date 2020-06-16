@@ -16,10 +16,9 @@ ActiveRecord::Schema.define(version: 2020_06_05_200240) do
     t.integer "user_id"
     t.integer "pet_id"
     t.string "services"
-    t.string "client_notes"
     t.datetime "arrival"
-    t.datetime "departure"
     t.string "location"
+    t.integer "number_days"
     t.integer "fee"
   end
 
@@ -29,12 +28,13 @@ ActiveRecord::Schema.define(version: 2020_06_05_200240) do
     t.string "pet_type"
     t.string "breed"
     t.string "size"
-    t.string "image"
   end
 
   create_table "reviews", force: :cascade do |t|
     t.integer "user_id"
+    t.string "username"
     t.string "text"
+    t.string "image"
   end
 
   create_table "users", force: :cascade do |t|

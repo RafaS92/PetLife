@@ -6,7 +6,7 @@ class CreatePets < ActiveRecord::Migration[6.0]
       t.string :pet_type
       t.string :breed
       t.string :size
-      t.string :image
+      
     end
   end
 end

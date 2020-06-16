@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import Comunity from "./Comunity";
 
 export default class NavBar extends React.Component {
   render() {
@@ -19,6 +20,7 @@ export default class NavBar extends React.Component {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/services">Services</Nav.Link>
             <Nav.Link href="/booking">Booking</Nav.Link>
+            <Nav.Link href="/comunity">Comunity</Nav.Link>
             <Nav.Link href="/locations">Location</Nav.Link>
           </Nav>
           <Nav>

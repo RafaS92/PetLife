@@ -36,13 +36,13 @@ class Home extends React.Component {
               </div>
             </div>
             <div>
-              <p>
-                Thanks for your prompt reply! Okay, I’ve just tried that. It
-                does reduce the height but at 400px, it doesn’t go all the way
-                down to the bottom edge of the screen. When I set it at 780px,
-                however, it just about touches it. So… to solve this problem, do
-                we just do a trial and error and see which height is best?
-              </p>
+              <h4>
+                At Pet Life, our love of cats and dogs is at the heart of
+                everything we do. Our knowledgeable, experienced, caring staff
+                is on-site 24 hours and will treat your pet like our own. So go
+                ahead and take that trip you’ve been wanting to; we’ve got
+                everything taken care of!
+              </h4>
             </div>
           </div>
         </Jumbotron>

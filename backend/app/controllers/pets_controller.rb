@@ -2,7 +2,11 @@ class PetsController < ApplicationController
 
     def create
         pet = Pet.create({
-            user_id: params[:user_id]
+            user_id: params[:user_id],
+            name: params[:name],
+            pet_type: params[:pet_type],
+            breed: params[:breed],
+            size: params[:size]
         })
         user = User.find(params[:user_id])
         render json: user

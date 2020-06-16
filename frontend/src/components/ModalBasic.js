@@ -1,16 +1,20 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import { Jumbotron, Container, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 Modal.setAppElement("#root");
-export default function ModalGold() {
+export default function ModalBasic() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   return (
     <div>
       <button onClick={() => setModalIsOpen(true)} className="btn btn-primary">
         See Details
       </button>
-      <button className="btn btn-warning ml-4">Booking</button>
+      <Link to="/booking">
+        <button className="btn btn-warning ml-4">Book now!</button>
+      </Link>
+
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={() => setModalIsOpen(false)}
@@ -24,8 +28,14 @@ export default function ModalGold() {
               </div>
               <div className="col mb-2 card4">
                 <h1>Basic</h1>
-                <p>nada we</p>
-                <button className="btn btn-success ml-4">Book now!</button>
+                <h4>This package includes:</h4>
+                <p> -A medium room size room for your pet </p>
+                <p> -Take your pet once a week to oudoors activities</p>
+                <p> -Daily care 24/7 </p>
+                <p> -Price: $50 per day </p>
+                <Link to="/booking">
+                  <button className="btn btn-success ml-4">Book now!</button>
+                </Link>
                 <button
                   className="btn btn-danger ml-4"
                   onClick={() => setModalIsOpen(false)}
