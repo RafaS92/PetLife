@@ -34,12 +34,16 @@ export default class ServiceList extends React.Component {
           </div>
         </Jumbotron>
         <Jumbotron className="Jumbotron-card">
-          <h1 class="display-4">Services</h1>
+          <h1 className="display-4">Services</h1>
           <div className="row row-cols-1 row-cols-md-4">
             <div className="col mb-2">
-              <div class="card" style={{ width: "20rem" }}>
+              <div className="card" style={{ width: "20rem" }}>
                 <div className="inner">
-                  <img src="/images/card1.jpg" class="card-img-top" alt="..." />
+                  <img
+                    src="/images/card1.jpg"
+                    className="card-img-top"
+                    alt="..."
+                  />
                 </div>
                 <div class="card-body">
                   <h4 class="card-title">Basic</h4>
@@ -119,8 +123,8 @@ export default class ServiceList extends React.Component {
                   <h4 class="card-title">Platinum</h4>
                   <p class="card-text">
                     {" "}
-                    Your pet deserve threat like a king? We have the perfect
-                    option for you.
+                    Your pet deserves to be treated like a king? We have the
+                    perfect option for you.
                   </p>
                 </div>
 

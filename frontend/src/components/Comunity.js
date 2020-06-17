@@ -1,6 +1,7 @@
 import React from "react";
 import { Jumbotron, Container } from "react-bootstrap";
 import ReviewList from "./ReviewList";
+import ReviewForm from "./ReviewsForm";
 
 class Comunity extends React.Component {
   state = {
@@ -17,18 +18,60 @@ class Comunity extends React.Component {
       });
   }
 
+  handleSubmit = (review) => {
+    let id = parseInt(localStorage.id);
+    fetch("http://localhost:3000/reviews", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        user_id: id,
+        username: review.username,
+        text: review.text,
+        image: review.image,
+      }),
+    })
+      .then((resp) => resp.json())
+      .then((review) => {
+        this.setState({
+          reviews: [...this.state.reviews, review],
+        });
+      });
+  };
+
   render() {
     return (
       <div>
-        {/* <div className="banner">
-          <video autoPlay muted loop>
-            <source src="/videos/cutDogs.mp4" type="video/mp4" />
-          </video>
-          <h2>PET LIFE</h2>
-          <p>Your pet is our family</p>
-        </div> */}
+        <Jumbotron fluid className="Jumbotron">
+          <div className="row row-cols-2 row-cols-md-2">
+            <div>
+              <img
+                className="col mb-3 img-jumbotron"
+                src="https://cloudinary-res.cloudinary.com/image/upload/Pawsy.jpg"
+              />
+            </div>
+            <div className="col mb-1 ">
+              <div className="main-div">
+                <h1 className="main-title">
+                  PET LIFE
+                  <span>PET LIFE </span>
+                  <span>PET LIFE </span>
+                  <span>The best place on earth</span>
+                </h1>
+              </div>
+            </div>
+            <div>
+              <h2>Welcome To Pet Life Comunity</h2>
+              <h4>
+                Please checkout our reviews and feel free to leave yours!!
+              </h4>
+            </div>
+          </div>
+        </Jumbotron>
 
         <ReviewList reviews={this.state.reviews} />
+        <ReviewForm form={this.handleSubmit} />
       </div>
     );
   }

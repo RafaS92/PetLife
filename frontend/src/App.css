@@ -122,13 +122,8 @@
   width: 100%;
 }
 
-.carousel-indicators {
-  visibility: hidden;
-}
-
 .Jumbotron {
   background-color: rgb(238, 229, 229);
-  margin-top: 40px;
   margin-bottom: 0px;
   padding-top: 10px;
   font-weight: bold;
@@ -137,13 +132,23 @@
   background-position: center;
 }
 
+.Jumbotron h1 {
+  font-family: "Roboto Slab";
+}
+
+.Jumbotron h4 {
+  font-family: "Rale";
+}
+
 .img-jumbotron {
   width: 80%;
-  height: 200px;
+  height: 300px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
 }
 
 .img-jumbotron2 {
-  margin-top: 40px;
+  margin-top: 25px;
   width: 90%;
   height: 250px;
 }
@@ -215,6 +220,24 @@
   background-size: cover;
   background-position: center;
   margin-bottom: 0px;
+  font-family: "Roboto Slab";
+}
+
+.Jumbotron4 p {
+  font-family: Raleway;
+}
+
+.Jumbotron10 {
+  background-image: url("https://marketplace.canva.com/EAD29RnUHXo/2/0/800w/canva-turquoise-dogs-and-paw-print-cute-zoom-virtual-background-uiJpWff6HkU.jpg");
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 70px;
+  height: 500px;
+  width: 1573px;
+  background-position: center;
+  margin-bottom: 0px;
+  font-family: "Roboto Slab";
+  border: 5px solid rgba(0, 0, 0, 0.644);
 }
 
 .Jumbotron6 {
@@ -255,6 +278,16 @@
   font-size: 22px;
   margin-top: 20px;
 }
+
+.display-4 {
+  font-family: "Roboto Slab";
+}
+
+.card {
+  width: 20rem;
+  height: 470px;
+}
+
 .card3 {
   background-color: rgb(140, 216, 247);
   padding-top: 10px;
@@ -288,6 +321,29 @@
   padding: 30px;
   box-shadow: 10px 10px 5px 0px black;
   align-self: center;
+}
+
+.card6 {
+  background-color: rgb(245, 245, 245);
+  padding-top: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  height: 685px;
+  padding: 30px;
+  box-shadow: 10px 10px 5px 0px black;
+}
+
+.card7 {
+  background-color: rgb(250, 150, 150);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 400px;
+  height: auto;
+  width: 360px;
+  box-shadow: 10px 10px 5px 0px black;
 }
 
 .Jumbotron-card {
@@ -334,6 +390,12 @@
   width: 80%;
   height: 290px;
   margin-left: 90px;
+  margin-top: 90px;
+}
+
+.img-form3 {
+  width: 80%;
+  height: 290px;
   margin-top: 90px;
 }
 
@@ -524,9 +586,10 @@ img-form-jumbo {
   color: rgb(255, 255, 255);
   line-height: 60vh;
   mix-blend-mode: screen;
+  font-family: Raleway;
 }
 
 .button-form {
-  margin-top: 290px;
-  margin-left: 150px;
+  margin-top: 30px;
+  margin-left: 180px;
 }

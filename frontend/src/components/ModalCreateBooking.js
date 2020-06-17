@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Modal from "react-modal";
 import { Jumbotron, Container, Button, Form, Row, Col } from "react-bootstrap";
 
@@ -6,7 +6,23 @@ Modal.setAppElement("#root");
 
 export default function ModalCreatebooking() {
   const [booking, setBooking] = useState("");
+  const [pets, setPets] = useState([]);
+  // const [fee, setFee] = useState(0);
+  const [numberD, setNumberD] = useState(0);
+  const [service, setService] = useState(0);
 
+  useEffect(() => {
+    fetch("http://localhost:3000/pets")
+      .then(function (response) {
+        return response.json();
+      })
+      .then((petsArray) => {
+        setPets(petsArray);
+      });
+  }, []);
+
+  let id = parseInt(localStorage.id);
+  let filteredPets = pets.filter((pet) => pet.user_id == id);
   const handleChange = (e) => {
     // console.log(e.target.value);
     // console.log(e.target.name);
@@ -14,6 +30,18 @@ export default function ModalCreatebooking() {
       ...booking,
       [e.target.name]: e.target.value,
     });
+  };
+
+  const handleChangeService = (e) => {
+    if (e.target.value == "Silver") {
+      setService(70);
+    } else if (e.target.value == "Basic") {
+      setService(60);
+    } else if (e.target.value == "Gold") {
+      setService(80);
+    } else if (e.target.value == "Platinum") {
+      setService(99.99);
+    }
   };
 
   const handleSubmit = (e) => {
@@ -53,6 +81,7 @@ export default function ModalCreatebooking() {
   // console.log(localStorage);
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  let fee = numberD * service;
   return (
     <div>
       <button onClick={() => setModalIsOpen(true)} className="btn btn-primary">
@@ -68,22 +97,13 @@ export default function ModalCreatebooking() {
           <Container fluid>
             <Form onSubmit={handleSubmit}>
               <Row>
-                <Col>
+                <Col className="card6">
                   <h1>Make a Booking</h1>
                   <Form.Group>
                     <Form.Label>Pet id</Form.Label>
 
-                    {/* <div>
-                            {props.toys.map((toy) => (
-                              <ToyCard
-                                toy={toy}
-                                deleteToy={props.deleteToy}
-                                key={toy.id}
-                              />
-                            ))}
-                          </div> */}
                     <Form.Control
-                      type="text"
+                      as="select"
                       name="pet_id"
                       required
                       value={booking.pet_id}
@@ -91,12 +111,11 @@ export default function ModalCreatebooking() {
                         handleChange(e);
                       }}
                     >
-                      {/* {id.booking.map((booking) => (
-                              <option>booking</option>
-                            ))} */}
+                      {filteredPets.map((pet) => (
+                        <option>{pet.name}</option>
+                      ))}
                     </Form.Control>
                   </Form.Group>
-
                   <Form.Group controlId="bookingType">
                     <Form.Label>Services</Form.Label>
                     <Form.Control
@@ -105,7 +124,7 @@ export default function ModalCreatebooking() {
                       required
                       value={booking.services}
                       onChange={(e) => {
-                        handleChange(e);
+                        handleChangeService(e);
                       }}
                     >
                       <option>Basic</option>
@@ -114,7 +133,6 @@ export default function ModalCreatebooking() {
                       <option>Platinum</option>
                     </Form.Control>
                   </Form.Group>
-
                   <Form.Group>
                     <Form.Label>Location</Form.Label>
                     <Form.Control
@@ -133,21 +151,18 @@ export default function ModalCreatebooking() {
                       <option>The Heigths</option>
                     </Form.Control>
                   </Form.Group>
-
                   <Form.Group controlId="bookingBreed">
                     <Form.Label>Check in</Form.Label>
                     <Form.Control
                       type="date"
                       name="arrival"
                       required
-                      placeholder="Chihuahua"
                       value={booking.arrival}
                       onChange={(e) => {
                         handleChange(e);
                       }}
                     ></Form.Control>
                   </Form.Group>
-
                   <Form.Group controlId="bookingBreed">
                     <Form.Label>Confirm number of days</Form.Label>
                     <Form.Control
@@ -156,31 +171,25 @@ export default function ModalCreatebooking() {
                       required
                       value={booking.number_days}
                       onChange={(e) => {
-                        handleChange(e);
+                        setNumberD(e.target.value);
                       }}
                     ></Form.Control>
                   </Form.Group>
 
-                  <Form.Group controlId="bookingType">
-                    <Form.Label>Fee</Form.Label>
+                  <Form.Group>
+                    <h3>Fee</h3>
+                    <Form.Label>
+                      <h5>${fee}</h5>
+                    </Form.Label>
                     <Form.Control
-                      type="text"
                       name="fee"
-                      required
                       value={booking.fee}
                       onChange={(e) => {
                         handleChange(e);
                       }}
-                    ></Form.Control>
+                      type="hidden"
+                    />
                   </Form.Group>
-                </Col>
-
-                <Col>
-                  <img
-                    src="https://s3.amazonaws.com/petcentral.com/wp-content/uploads/2019/07/22160617/dog-hotel-article.jpg"
-                    className="img-form"
-                  />
-
                   <Form.Group className="button-form">
                     <Button variant="primary " type="submit">
                       Register
@@ -193,6 +202,13 @@ export default function ModalCreatebooking() {
                       Close
                     </Button>
                   </Form.Group>
+                </Col>
+
+                <Col>
+                  <img
+                    src="https://s3.amazonaws.com/petcentral.com/wp-content/uploads/2019/07/22160617/dog-hotel-article.jpg"
+                    className="img-form"
+                  />
                 </Col>
               </Row>
             </Form>

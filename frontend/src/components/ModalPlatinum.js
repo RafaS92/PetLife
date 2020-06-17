@@ -28,9 +28,13 @@ export default function ModalGold() {
               <div className="col mb-2 card4">
                 <h1>Gold</h1>
                 <h4>This package includes:</h4>
-                <p> -A medium room size room for your pet </p>
-                <p> -Take your pet once a week to oudoors activities</p>
-                <p> -Daily care 24/7 </p>
+                <p> -Daily outdoors activities included</p>
+                <p> -Care 24/7 </p>
+                <p> -Grooming</p>
+                <p> -Training</p>
+                <p> -Access to the Petsuite</p>
+                <p> -Access to spa</p>
+                <p> -Special food adjusted to its diet</p>
                 <p> -Price: $99.99 per day </p>
                 <Link to="/booking">
                   <button className="btn btn-success ml-4">Book now!</button>

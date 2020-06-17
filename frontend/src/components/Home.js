@@ -17,36 +17,60 @@ class Home extends React.Component {
     console.log(this.props.location.state);
     return (
       <div>
-        <Jumbotron fluid className="Jumbotron">
-          <div className="row row-cols-2 row-cols-md-2">
-            <div>
-              <img
-                className="col mb-3 img-jumbotron"
-                src="https://s3.amazonaws.com/petcentral.com/wp-content/uploads/2019/07/22160617/dog-hotel-article.jpg"
-              />
-            </div>
-            <div className="col mb-1 ">
-              <div className="main-div">
-                <h1 className="main-title">
-                  PET LIFE
-                  <span>PET LIFE </span>
-                  <span>PET LIFE </span>
-                  <span>The best place on earth</span>
-                </h1>
+        <div className="banner">
+          <video autoPlay muted loop>
+            <source src="/videos/cutDogs.mp4" type="video/mp4" />
+          </video>
+          <h2>PET LIFE</h2>
+          <p>Your pet is our family</p>
+        </div>
+
+        <Jumbotron className="Jumbotron4" fluid>
+          <Container>
+            <div className="row row-cols-2 row-cols-md-1">
+              <div className="col separator mb-2 ">
+                <i class="fas fa-paw fa-3x"></i>
+                <h1>WELCOME TO PET LIFE HOTEL</h1>
+                <br />
+                <h3>
+                  COME AND LET YOUR PET EXPERIENCE OUR 5 STAR LUXURY PET HOTEL
+                  FACILITY, CUSTOM DESIGNED TO MEET THE UNIQUE NEEDS OF YOUR
+                  PET.
+                </h3>
+                <br />
+                <h5>ALL SUITES START AT $50 PER NIGHT.</h5>
+                <p className="text4">
+                  PET LIFE is committed to delivering the highest level of pet
+                  pampering, grooming, and training for both dogs and cats. From
+                  socialization to one-on-one interaction, luxury suites to Zen
+                  Wellness, PET LIFE will surpass your expectations. All pets
+                  that enter to our facility are treated as if they are our own,
+                  allowing you to have peace of mind while you are away from
+                  your pet.
+                </p>
               </div>
             </div>
-            <div>
-              <h4>
-                At Pet Life, our love of cats and dogs is at the heart of
-                everything we do. Our knowledgeable, experienced, caring staff
-                is on-site 24 hours and will treat your pet like our own. So go
-                ahead and take that trip you’ve been wanting to; we’ve got
-                everything taken care of!
-              </h4>
-            </div>
-          </div>
+          </Container>
         </Jumbotron>
 
+        <Jumbotron className="Jumbotron3" fluid>
+          <Container>
+            <div className="row row-cols-2 row-cols-md-2">
+              <div className="col mb-2 card3">
+                <h1 className="title">New Client Special!</h1>
+                <h3 className="subtitle">
+                  GET YOUR FIRST DAY OF DAYCARE FREE!{" "}
+                </h3>
+
+                <p>Call to schedule your pet's temperament test today.</p>
+              </div>
+              <div className="col mb-2 ">
+                <h1 className="title3">Call to Booking!</h1>
+                <h4>Don't miss the chance to spoil your pet!</h4>
+              </div>
+            </div>
+          </Container>
+        </Jumbotron>
         <Carousel className="carousel">
           <Carousel.Item className="carousel-item">
             <img
@@ -76,38 +100,19 @@ class Home extends React.Component {
           </Carousel.Item>
         </Carousel>
 
-        <Jumbotron className="Jumbotron3" fluid>
-          <Container>
-            <div className="row row-cols-2 row-cols-md-2">
-              <div className="col mb-2 card3">
-                <h1 className="title">New Client Special!</h1>
-                <h3 className="subtitle">
-                  GET YOUR FIRST DAY OF DAYCARE FREE!{" "}
-                </h3>
-                <p>Call to schedule your pet's temperament test today.</p>
-              </div>
-              <div className="col mb-2 ">
-                <h1 className="title3">Call to Booking!</h1>
-                <h4>Don't miss the chance to spoil your pet!</h4>
-                <p>
-                  <Button variant="warning">832-920-0685</Button>
-                </p>
-              </div>
-            </div>
-          </Container>
-        </Jumbotron>
-
         <Jumbotron className="Jumbotron-card">
           <h1 class="display-4">Services</h1>
           <div className="row row-cols-1 row-cols-md-4">
             <div className="col mb-2">
-              <div class="card" style={{ width: "20rem" }}>
+              <div class="card">
                 <div className="inner">
                   <img src="/images/card1.jpg" class="card-img-top" alt="..." />
                 </div>
                 <div class="card-body">
                   <h4 class="card-title">Basic</h4>
-                  <p class="card-text"> que pedo</p>
+                  <p class="card-text">
+                    Check the details of our basic package.
+                  </p>
                 </div>
 
                 <div class="card-body">
@@ -122,13 +127,17 @@ class Home extends React.Component {
             </div>
 
             <div className="col mb-2">
-              <div class="card" style={{ width: "18 rem" }}>
+              <div class="card">
                 <div className="inner">
                   <img src="/images/card2.jpg" class="card-img-top" alt="..." />
                 </div>
                 <div class="card-body">
                   <h4 class="card-title">Silver</h4>
-                  <p class="card-text"> que pedo</p>
+                  <p class="card-text">
+                    {" "}
+                    Our silver package is one of the most love package of our
+                    customers.
+                  </p>
                 </div>
 
                 <div class="card-body">
@@ -143,13 +152,15 @@ class Home extends React.Component {
             </div>
 
             <div className="col mb-2">
-              <div class="card" style={{ width: "18 rem" }}>
+              <div class="card">
                 <div className="inner">
                   <img src="/images/card3.jpg" class="card-img-top" alt="..." />
                 </div>
                 <div class="card-body">
                   <h4 class="card-title">Gold</h4>
-                  <p class="card-text"> que pedo</p>
+                  <p class="card-text">
+                    Do you want to treat your pet? The gold package is for you.
+                  </p>
                 </div>
 
                 <div class="card-body">
@@ -164,13 +175,17 @@ class Home extends React.Component {
             </div>
 
             <div className="col mb-2">
-              <div class="card" style={{ width: "20rem" }}>
+              <div class="card">
                 <div className="inner">
                   <img src="/images/card4.jpg" class="card-img-top" alt="..." />
                 </div>
                 <div class="card-body">
                   <h4 class="card-title">Platinum</h4>
-                  <p class="card-text"> que pedo</p>
+                  <p class="card-text">
+                    {" "}
+                    Your pet deserve threat like a king? We have the perfect
+                    option for you.
+                  </p>
                 </div>
 
                 <div class="card-body">
@@ -200,10 +215,10 @@ class Home extends React.Component {
                   If you'll be traveling in the near future, now is a good time
                   to start thinking about how you'll make sure your pets are
                   taken care of while you're away. One of the most common
-                  choices pet owners make is that of boarding their pets at a
-                  trusted facility in Oakland Park while they're gone. This way,
-                  they can rest assured that their pets are fed, played with,
-                  and taken care of daily.
+                  choices pet owners make is that of boarding their pets at our
+                  facilities in Houston while they're gone. This way, they can
+                  rest assured that their pets are fed, played with, and taken
+                  care of daily.
                 </p>
               </div>
             </div>

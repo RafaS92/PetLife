@@ -28,8 +28,8 @@ class Booking extends React.Component {
                   <h2 class="card-title">Register Your Pet</h2>
                   <h5 class="card-text">
                     {" "}
-                    If you do not have a Pet register,or you want to register a
-                    new pet. Click here.
+                    If you do not have a Pet registered or you want to register
+                    a new pet. Click here.
                   </h5>
                 </div>
 
@@ -55,7 +55,7 @@ class Booking extends React.Component {
                 </div>
                 <div class="card-body">
                   <h2 class="card-title">Booking</h2>
-                  <h4 class="card-text"> Set a new booking.</h4>
+                  <h4 class="card-text"> Book a new stay.</h4>
                 </div>
 
                 <div class="card-body">

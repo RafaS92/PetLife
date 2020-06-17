@@ -65,7 +65,7 @@ export default function ModalCreatePet() {
               <div className="col mb-2 ">
                 <img
                   src="https://losangeles.cbslocal.com/wp-content/uploads/sites/14984641/2018/05/gettyimages-963167968.jpg?w=1024&h=0&crop=1"
-                  className="img-form"
+                  className="img-form3"
                 />
               </div>
               <div className="col mb-2 card4">
@@ -110,7 +110,6 @@ export default function ModalCreatePet() {
                             type="text"
                             name="breed"
                             required
-                            placeholder="Chihuahua"
                             value={pet.breed}
                             onChange={(e) => {
                               handleChange(e);
@@ -139,12 +138,18 @@ export default function ModalCreatePet() {
                           <Button variant="primary" type="submit">
                             Register
                           </Button>
+
+                          <Button
+                            variant="danger ml-4"
+                            onClick={() => setModalIsOpen(false)}
+                          >
+                            Close
+                          </Button>
                         </Form.Group>
                       </Form>
                     </Col>
                   </Row>
                 </div>
-                <button onClick={() => setModalIsOpen(false)}>Close</button>
               </div>
             </div>
           </Container>
