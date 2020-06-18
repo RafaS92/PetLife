@@ -2,12 +2,14 @@ import React from "react";
 import ModalCreatePet from "./ModalCreatePet";
 import ModalCreateBooking from "./ModalCreateBooking";
 import { Jumbotron } from "react-bootstrap";
+import NavBar from "./NavBar";
 
 class Booking extends React.Component {
   state = {};
   render() {
     return (
       <div>
+        <NavBar />
         <Jumbotron fluid className="Jumbotron-title">
           <div>
             <h1>"Your Dog Never Enjoyed So Much"</h1>

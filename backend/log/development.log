@@ -8154,3 +8154,1953 @@ Processing by PetsController#index as */*
 Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 1.3ms | Allocations: 1247)
 
 
+Started GET "/pets" for ::1 at 2020-06-17 19:00:20 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PetsController#index as */*
+  [1m[36mPet Load (1.9ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 20ms (Views: 14.6ms | ActiveRecord: 1.9ms | Allocations: 1250)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 20:40:04 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (1.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 22ms (Views: 16.4ms | ActiveRecord: 1.6ms | Allocations: 3896)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 21:13:10 -0500
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (3.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 28ms (Views: 19.1ms | ActiveRecord: 3.3ms | Allocations: 3896)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 21:13:46 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 32ms (Views: 27.6ms | ActiveRecord: 0.3ms | Allocations: 3878)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 21:13:51 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.8ms | Allocations: 3878)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 21:16:27 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (1.0ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 295ms (Views: 293.4ms | ActiveRecord: 1.0ms | Allocations: 3881)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 21:16:45 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.2ms | Allocations: 3878)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 21:17:33 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms | Allocations: 3878)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 21:17:44 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.2ms | Allocations: 3878)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 21:17:50 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.2ms | Allocations: 3878)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 21:18:07 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.3ms | Allocations: 3878)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 21:18:39 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.2ms | Allocations: 3878)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 21:19:04 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.2ms | Allocations: 3878)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 21:19:10 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.3ms | Allocations: 3878)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 21:19:32 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms | Allocations: 3878)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 21:19:59 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.2ms | Allocations: 3878)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 21:20:54 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.2ms | Allocations: 3878)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 21:21:20 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.2ms | Allocations: 3878)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 21:21:46 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.2ms | Allocations: 3878)
+
+
+Started GET "/pets" for ::1 at 2020-06-17 21:21:49 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (1.9ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 6ms (Views: 2.8ms | ActiveRecord: 1.9ms | Allocations: 1247)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 22:19:49 -0500
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 14ms (Views: 9.2ms | ActiveRecord: 1.2ms | Allocations: 8578)
+
+
+Started GET "/reviews" for ::1 at 2020-06-17 22:20:02 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.2ms | Allocations: 3895)
+
+
+Started POST "/login" for ::1 at 2020-06-18 08:06:17 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"sada", "password"=>"[FILTERED]", "authentication"=>{"username"=>"sada", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (5.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sada"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 61ms (Views: 0.4ms | ActiveRecord: 6.1ms | Allocations: 3876)
+
+
+Started POST "/users" for ::1 at 2020-06-18 08:06:35 -0500
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"teto", "password"=>"[FILTERED]", "address"=>"8639 Greiner Drive", "email"=>"manrvaldez.92@gmail.com", "user"=>{"username"=>"teto", "address"=>"8639 Greiner Drive", "email"=>"manrvaldez.92@gmail.com"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "teto"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Create (4.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "teto"], ["password_digest", "$2a$12$ZFFjxwl3GMO26X0l9zxOauEUhIWWXas9ZhhVCWmTHzm3cCqBOMzNW"], ["address", "8639 Greiner Drive"], ["email", "manrvaldez.92@gmail.com"]]
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? AND "users"."id" != ? LIMIT ?[0m  [["username", "teto"], ["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Completed 200 OK in 295ms (Views: 0.1ms | ActiveRecord: 6.5ms | Allocations: 8066)
+
+
+Started GET "/reviews" for ::1 at 2020-06-18 08:06:51 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.7ms | Allocations: 3893)
+
+
+Started POST "/users" for ::1 at 2020-06-18 08:24:00 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"tetete", "password"=>"[FILTERED]", "address"=>"8639 Greiner Drive", "email"=>"manrvaldez.92@gmail.com", "user"=>{"username"=>"tetete", "address"=>"8639 Greiner Drive", "email"=>"manrvaldez.92@gmail.com"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "tetete"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Create (1.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "tetete"], ["password_digest", "$2a$12$4qjR4VFmR.nlElI6NMoOsOJlVORXHWg3Fbw8by2OzVx57jBMnC3mC"], ["address", "8639 Greiner Drive"], ["email", "manrvaldez.92@gmail.com"]]
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? AND "users"."id" != ? LIMIT ?[0m  [["username", "tetete"], ["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Completed 200 OK in 227ms (Views: 0.7ms | ActiveRecord: 4.0ms | Allocations: 4489)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 08:30:19 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PetsController#index as */*
+  [1m[36mPet Load (2.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 53ms (Views: 33.2ms | ActiveRecord: 3.0ms | Allocations: 6383)
+
+
+Started GET "/reviews" for ::1 at 2020-06-18 08:30:22 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (1.0ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 1.0ms | Allocations: 3910)
+
+
+Started GET "/reviews" for ::1 at 2020-06-18 08:31:12 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.2ms | Allocations: 3878)
+
+
+Started GET "/reviews" for ::1 at 2020-06-18 08:31:38 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.2ms | Allocations: 3878)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 08:31:41 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms | Allocations: 1230)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 08:32:07 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.2ms | Allocations: 1230)
+
+
+Started POST "/users" for ::1 at 2020-06-18 08:32:56 -0500
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"Rafafafa", "password"=>"[FILTERED]", "address"=>"8639 Greiner Drive", "email"=>"manrvaldez.92@gmail.com", "user"=>{"username"=>"Rafafafa", "address"=>"8639 Greiner Drive", "email"=>"manrvaldez.92@gmail.com"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Rafafafa"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "Rafafafa"], ["password_digest", "$2a$12$ij4/fKthVpv3KUxV05J/ke29JDStsHxInXAKHo9dZrp/r8cvwx60e"], ["address", "8639 Greiner Drive"], ["email", "manrvaldez.92@gmail.com"]]
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? AND "users"."id" != ? LIMIT ?[0m  [["username", "Rafafafa"], ["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Completed 200 OK in 221ms (Views: 0.1ms | ActiveRecord: 2.7ms | Allocations: 4469)
+
+
+Started POST "/users" for ::1 at 2020-06-18 08:33:19 -0500
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"Rafa", "password"=>"[FILTERED]", "address"=>"8639 Greiner Drive", "email"=>"manrvaldez.92@gmail.com", "user"=>{"username"=>"Rafa", "address"=>"8639 Greiner Drive", "email"=>"manrvaldez.92@gmail.com"}}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Rafa"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "Rafa"], ["password_digest", "$2a$12$qQFj5SAHfO/5Z8AosKfyZuhqIO3ohVRQ35xwuU9EXZPK8JI8JLVj2"], ["address", "8639 Greiner Drive"], ["email", "manrvaldez.92@gmail.com"]]
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? AND "users"."id" != ? LIMIT ?[0m  [["username", "Rafa"], ["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Completed 200 OK in 227ms (Views: 0.9ms | ActiveRecord: 2.2ms | Allocations: 4470)
+
+
+Started POST "/users" for ::1 at 2020-06-18 08:33:33 -0500
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"aaasas", "password"=>"[FILTERED]", "address"=>"8639 Greiner Drive", "email"=>"manrvaldez.92@gmail.com", "user"=>{"username"=>"aaasas", "address"=>"8639 Greiner Drive", "email"=>"manrvaldez.92@gmail.com"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "aaasas"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "aaasas"], ["password_digest", "$2a$12$Z.tO5qRxcmAGVIJES1m86erxBu07yKy4pAqChl09VKwHxmAMof23."], ["address", "8639 Greiner Drive"], ["email", "manrvaldez.92@gmail.com"]]
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? AND "users"."id" != ? LIMIT ?[0m  [["username", "aaasas"], ["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Completed 200 OK in 213ms (Views: 0.1ms | ActiveRecord: 1.8ms | Allocations: 4468)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 08:33:53 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.2ms | Allocations: 1230)
+
+
+Started GET "/reviews" for ::1 at 2020-06-18 08:33:57 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms | Allocations: 3878)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 08:48:20 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.6ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 21ms (Views: 18.0ms | ActiveRecord: 0.6ms | Allocations: 1250)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 08:48:41 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Churro", "pet_type"=>"Cat", "breed"=>"Podengo", "pet"=>{"user_id"=>2, "name"=>"Churro", "pet_type"=>"Cat", "breed"=>"Podengo"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.8ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed") VALUES (?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Churro"], ["pet_type", "Cat"], ["breed", "Podengo"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 2.3ms | Allocations: 3065)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 08:48:46 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.8ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 2.3ms | Allocations: 2796)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 08:49:24 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"jjj", "pet"=>{"user_id"=>2, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"jjj"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.6ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed") VALUES (?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Melike"], ["pet_type", "Cat"], ["breed", "jjj"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 2.0ms | Allocations: 2832)
+
+
+Started POST "/bookings" for ::1 at 2020-06-18 08:49:51 -0500
+Processing by BookingsController#create as */*
+  Parameters: {"user_id"=>2, "location"=>"Sugar Land", "arrival"=>"2020-06-20", "booking"=>{"user_id"=>2, "arrival"=>"2020-06-20", "location"=>"Sugar Land"}}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mBooking Create (0.8ms)[0m  [1m[32mINSERT INTO "bookings" ("user_id", "location") VALUES (?, ?)[0m  [["user_id", 2], ["location", "Sugar Land"]]
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/bookings_controller.rb:13:in `create'
+Completed 200 OK in 18ms (Views: 0.2ms | ActiveRecord: 2.0ms | Allocations: 7897)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 08:53:22 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.1ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 1518)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 08:57:12 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.9ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 18ms (Views: 14.6ms | ActiveRecord: 0.9ms | Allocations: 1518)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 08:57:26 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.2ms | Allocations: 1518)
+
+
+Started POST "/bookings" for ::1 at 2020-06-18 08:57:46 -0500
+Processing by BookingsController#create as */*
+  Parameters: {"user_id"=>2, "pet_id"=>"Melike", "location"=>"The Heigths", "arrival"=>"2020-06-26", "booking"=>{"user_id"=>2, "pet_id"=>"Melike", "arrival"=>"2020-06-26", "location"=>"The Heigths"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mBooking Create (0.4ms)[0m  [1m[32mINSERT INTO "bookings" ("user_id", "pet_id", "location") VALUES (?, ?, ?)[0m  [["user_id", 2], ["pet_id", 0], ["location", "The Heigths"]]
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/bookings_controller.rb:13:in `create'
+Completed 200 OK in 106ms (Views: 0.1ms | ActiveRecord: 1.8ms | Allocations: 2808)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 08:58:04 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms | Allocations: 1518)
+
+
+Started GET "/reviews" for ::1 at 2020-06-18 08:58:38 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.7ms | Allocations: 3893)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 08:58:39 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.1ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms | Allocations: 1518)
+
+
+Started POST "/bookings" for ::1 at 2020-06-18 08:58:53 -0500
+Processing by BookingsController#create as */*
+  Parameters: {"user_id"=>2, "arrival"=>"2020-06-13", "booking"=>{"user_id"=>2, "arrival"=>"2020-06-13"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mBooking Create (1.8ms)[0m  [1m[32mINSERT INTO "bookings" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/bookings_controller.rb:13:in `create'
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 3.2ms | Allocations: 2782)
+
+
+Started GET "/reviews" for ::1 at 2020-06-18 08:59:01 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.2ms | Allocations: 3878)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 08:59:02 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.4ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms | Allocations: 1518)
+
+
+Started POST "/bookings" for ::1 at 2020-06-18 08:59:17 -0500
+Processing by BookingsController#create as */*
+  Parameters: {"user_id"=>2, "pet_id"=>"Churro", "location"=>"Sugar Land", "arrival"=>"2020-06-25", "booking"=>{"user_id"=>2, "pet_id"=>"Churro", "arrival"=>"2020-06-25", "location"=>"Sugar Land"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mBooking Create (0.7ms)[0m  [1m[32mINSERT INTO "bookings" ("user_id", "pet_id", "location") VALUES (?, ?, ?)[0m  [["user_id", 2], ["pet_id", 0], ["location", "Sugar Land"]]
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/bookings_controller.rb:13:in `create'
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 2.0ms | Allocations: 2802)
+
+
+Started GET "/reviews" for ::1 at 2020-06-18 08:59:31 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.4ms | Allocations: 3878)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 08:59:36 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms | Allocations: 1518)
+
+
+Started GET "/reviews" for ::1 at 2020-06-18 09:00:13 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.5ms | Allocations: 3878)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:00:21 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms | Allocations: 1518)
+
+
+Started GET "/reviews" for ::1 at 2020-06-18 09:07:22 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.8ms | Allocations: 3896)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:10:41 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (1.8ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 14ms (Views: 9.4ms | ActiveRecord: 1.8ms | Allocations: 1535)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:10:51 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Tood", "pet_type"=>"Cat", "breed"=>"www", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Tood", "pet_type"=>"Cat", "breed"=>"www", "size"=>"Medium"}}
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (2.6ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Tood"], ["pet_type", "Cat"], ["breed", "www"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 22ms (Views: 0.2ms | ActiveRecord: 5.5ms | Allocations: 2859)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:36:59 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PetsController#index as */*
+  [1m[36mPet Load (1.0ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 19ms (Views: 14.8ms | ActiveRecord: 1.0ms | Allocations: 1648)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:37:27 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.2ms | Allocations: 1628)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:38:26 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (1.5ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 20ms (Views: 16.2ms | ActiveRecord: 1.5ms | Allocations: 1629)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:38:29 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.7ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.7ms | Allocations: 1628)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:38:47 -0500
+Processing by PetsController#index as HTML
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.2ms | Allocations: 1627)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:38:54 -0500
+Processing by PetsController#index as HTML
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.2ms | Allocations: 1626)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:38:57 -0500
+Processing by PetsController#index as HTML
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.2ms | Allocations: 1626)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:41:35 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (1.1ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 25ms (Views: 18.7ms | ActiveRecord: 1.1ms | Allocations: 1628)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:41:40 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 1628)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:42:34 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.2ms | Allocations: 1628)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:44:06 -0500
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.7ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 20ms (Views: 7.8ms | ActiveRecord: 1.5ms | Allocations: 7825)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:44:19 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (1.2ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Rafa"], ["pet_type", "Cat"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 47ms (Views: 0.2ms | ActiveRecord: 3.9ms | Allocations: 7777)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:44:28 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.4ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 1.4ms | Allocations: 2814)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:44:46 -0500
+Processing by PetsController#index as HTML
+  [1m[36mPet Load (0.4ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.4ms | Allocations: 1836)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:46:01 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (3.8ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 30ms (Views: 23.9ms | ActiveRecord: 3.8ms | Allocations: 1820)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:46:25 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (7.4ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 34ms (Views: 25.7ms | ActiveRecord: 7.4ms | Allocations: 1820)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:46:29 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.2ms | Allocations: 1821)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:46:39 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Podengo", "size"=>"Large", "pet"=>{"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Podengo", "size"=>"Large"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.4ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Rafa"], ["pet_type", "Cat"], ["breed", "Podengo"], ["size", "Large"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 21ms (Views: 0.1ms | ActiveRecord: 1.2ms | Allocations: 2864)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:46:46 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.7ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 2.6ms | Allocations: 2798)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:47:32 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms | Allocations: 2012)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:47:41 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.5ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Rafa"], ["pet_type", "Cat"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 1.5ms | Allocations: 2841)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:52:42 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (3.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 39ms (Views: 28.9ms | ActiveRecord: 3.3ms | Allocations: 2122)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:52:56 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"dsdsdsds", "pet"=>{"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"dsdsdsds"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.5ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed") VALUES (?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Rafa"], ["pet_type", "Cat"], ["breed", "dsdsdsds"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 14ms (Views: 0.3ms | ActiveRecord: 1.8ms | Allocations: 2830)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:52:57 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.5ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 1.5ms | Allocations: 2796)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:52:58 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.6ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 2.1ms | Allocations: 2798)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:53:00 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.5ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 2.3ms | Allocations: 2796)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:54:07 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (1.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 33ms (Views: 24.8ms | ActiveRecord: 1.2ms | Allocations: 2471)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:54:17 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Lazzy", "pet_type"=>"Cat", "breed"=>"Podengo", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Lazzy", "pet_type"=>"Cat", "breed"=>"Podengo", "size"=>"Medium"}}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.5ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Lazzy"], ["pet_type", "Cat"], ["breed", "Podengo"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 50ms (Views: 0.2ms | ActiveRecord: 3.8ms | Allocations: 2841)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:54:19 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.7ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 21ms (Views: 0.3ms | ActiveRecord: 3.9ms | Allocations: 2796)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:54:19 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.7ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 2.1ms | Allocations: 2796)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:54:20 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.4ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 1.4ms | Allocations: 2796)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:55:20 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 20ms (Views: 19.9ms | ActiveRecord: 0.2ms | Allocations: 2827)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:55:29 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (1.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.6ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Rafa"], ["pet_type", "Cat"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 23ms (Views: 0.3ms | ActiveRecord: 4.9ms | Allocations: 2841)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:55:30 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.8ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 2.0ms | Allocations: 2796)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:55:31 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.5ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 2.4ms | Allocations: 2796)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:55:35 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.5ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 2.2ms | Allocations: 2796)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:55:35 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.7ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 12ms (Views: 1.3ms | ActiveRecord: 2.3ms | Allocations: 2796)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:55:42 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.2ms | Allocations: 3266)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 09:55:50 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.8ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Melike"], ["pet_type", "Cat"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 14ms (Views: 1.2ms | ActiveRecord: 2.4ms | Allocations: 2841)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:55:50 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms | Allocations: 3375)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 09:56:02 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.1ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.1ms | Allocations: 3376)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 10:07:13 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PetsController#index as */*
+  [1m[36mPet Load (2.1ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 23ms (Views: 14.0ms | ActiveRecord: 2.1ms | Allocations: 3395)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 10:07:14 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.2ms | Allocations: 3375)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:07:22 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (1.0ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Melike"], ["pet_type", "Cat"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 14ms (Views: 0.3ms | ActiveRecord: 2.8ms | Allocations: 2858)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:07:23 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.4ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 1.9ms | Allocations: 2796)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:07:23 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.3ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 1.1ms | Allocations: 2796)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:07:24 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.4ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 2.0ms | Allocations: 2981)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:07:24 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.4ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.6ms | Allocations: 2796)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:07:24 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.5ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 1.9ms | Allocations: 2796)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:07:24 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.4ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 1.7ms | Allocations: 2796)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:07:24 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.5ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 2.0ms | Allocations: 2796)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:07:25 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.8ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 2.3ms | Allocations: 2796)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:07:25 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.4ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.7ms | Allocations: 2796)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:07:25 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.6ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 1.9ms | Allocations: 2796)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:07:25 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.5ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 1.8ms | Allocations: 2796)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 10:07:28 -0500
+Processing by PetsController#index as HTML
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.2ms | Allocations: 4385)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:07:53 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Melike Rocks", "pet_type"=>"Dog", "size"=>"Large", "pet"=>{"user_id"=>2, "name"=>"Melike Rocks", "pet_type"=>"Dog", "size"=>"Large"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (1.8ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "size") VALUES (?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Melike Rocks"], ["pet_type", "Dog"], ["size", "Large"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 4.1ms | Allocations: 2830)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 10:08:38 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (1.1ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 21ms (Views: 16.2ms | ActiveRecord: 1.1ms | Allocations: 4490)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 10:09:20 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.3ms | Allocations: 4490)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:09:27 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"Podengo", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"Podengo", "size"=>"Medium"}}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.7ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Melike"], ["pet_type", "Cat"], ["breed", "Podengo"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 2.8ms | Allocations: 2841)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:09:42 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.6ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 1.9ms | Allocations: 2796)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 10:17:18 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.7ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 18ms (Views: 14.4ms | ActiveRecord: 0.7ms | Allocations: 4703)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:18:44 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (2.9ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Melike"], ["pet_type", "Cat"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 16ms (Views: 0.1ms | ActiveRecord: 5.5ms | Allocations: 2858)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 10:20:16 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.9ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 26ms (Views: 17.5ms | ActiveRecord: 0.9ms | Allocations: 4792)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:20:29 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Rafa", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Rafa", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (2.0ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "breed", "size") VALUES (?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Rafa"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 4.1ms | Allocations: 2830)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:20:30 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.6ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 10ms (Views: 1.1ms | ActiveRecord: 2.5ms | Allocations: 2796)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 10:22:26 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.3ms | Allocations: 4977)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:22:48 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (1.3ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Rafa"], ["pet_type", "Cat"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 21ms (Views: 0.2ms | ActiveRecord: 3.4ms | Allocations: 2841)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 10:26:59 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.3ms | Allocations: 5087)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:28:22 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (2.4ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Rafa"], ["pet_type", "Cat"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 29ms (Views: 1.3ms | ActiveRecord: 5.4ms | Allocations: 2841)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 10:31:12 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (1.0ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 23ms (Views: 15.8ms | ActiveRecord: 1.0ms | Allocations: 5197)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 10:35:49 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (1.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 40ms (Views: 26.0ms | ActiveRecord: 1.3ms | Allocations: 5198)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:35:57 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (0.6ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.9ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Rafa"], ["pet_type", "Cat"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 32ms (Views: 0.4ms | ActiveRecord: 4.5ms | Allocations: 2841)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 10:36:12 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.3ms | Allocations: 5307)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:36:31 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (1.3ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Rafa"], ["pet_type", "Cat"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 2.7ms | Allocations: 2841)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 10:37:44 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.2ms | Allocations: 5417)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 10:38:40 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.3ms | Allocations: 5417)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 10:38:51 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.6ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.6ms | Allocations: 5417)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:39:00 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (1.1ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Melike"], ["pet_type", "Cat"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 14ms (Views: 0.1ms | ActiveRecord: 2.8ms | Allocations: 2841)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 10:58:11 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Rafa", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Rafa", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (3.7ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "breed", "size") VALUES (?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Rafa"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 24ms (Views: 1.3ms | ActiveRecord: 5.3ms | Allocations: 2847)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 10:58:50 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.7ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.7ms | Allocations: 5651)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 11:00:37 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"Podengo", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"Podengo", "size"=>"Medium"}}
+  [1m[35m (0.6ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (1.9ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Melike"], ["pet_type", "Cat"], ["breed", "Podengo"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 26ms (Views: 0.9ms | ActiveRecord: 4.7ms | Allocations: 2843)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 11:00:55 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "pet"=>{"user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.7ms)[0m  [1m[32mINSERT INTO "pets" ("user_id") VALUES (?)[0m  [["user_id", 2]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 1.9ms | Allocations: 2796)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:01:11 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.4ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.4ms | Allocations: 5822)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:01:23 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.9ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 17ms (Views: 12.8ms | ActiveRecord: 0.9ms | Allocations: 5822)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 11:01:30 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (0.6ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (1.3ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Rafa"], ["pet_type", "Cat"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 17ms (Views: 0.1ms | ActiveRecord: 3.9ms | Allocations: 2841)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:01:47 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.3ms | Allocations: 5932)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:03:24 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.3ms | Allocations: 5932)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:03:50 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.3ms | Allocations: 5932)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 11:03:58 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"Podengo", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"Podengo", "size"=>"Medium"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (1.1ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Melike"], ["pet_type", "Cat"], ["breed", "Podengo"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 3.2ms | Allocations: 2841)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:04:10 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.6ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.6ms | Allocations: 6042)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:05:52 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.2ms | Allocations: 6042)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:08:32 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.7ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 15ms (Views: 11.7ms | ActiveRecord: 0.7ms | Allocations: 6042)
+
+
+Started POST "/bookings" for ::1 at 2020-06-18 11:08:45 -0500
+Processing by BookingsController#create as */*
+  Parameters: {"user_id"=>2, "pet_id"=>"Rafa", "location"=>"Sugar Land", "arrival"=>"2020-06-19", "booking"=>{"user_id"=>2, "pet_id"=>"Rafa", "arrival"=>"2020-06-19", "location"=>"Sugar Land"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mBooking Create (2.2ms)[0m  [1m[32mINSERT INTO "bookings" ("user_id", "pet_id", "location") VALUES (?, ?, ?)[0m  [["user_id", 2], ["pet_id", 0], ["location", "Sugar Land"]]
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/bookings_controller.rb:13:in `create'
+Completed 200 OK in 26ms (Views: 0.2ms | ActiveRecord: 5.1ms | Allocations: 7938)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:09:23 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.7ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 22ms (Views: 15.2ms | ActiveRecord: 0.7ms | Allocations: 6042)
+
+
+Started POST "/bookings" for ::1 at 2020-06-18 11:09:38 -0500
+Processing by BookingsController#create as */*
+  Parameters: {"user_id"=>2, "pet_id"=>"Tood", "location"=>"Sugar Land", "arrival"=>"2020-06-19", "booking"=>{"user_id"=>2, "pet_id"=>"Tood", "arrival"=>"2020-06-19", "location"=>"Sugar Land"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mBooking Create (0.9ms)[0m  [1m[32mINSERT INTO "bookings" ("user_id", "pet_id", "location") VALUES (?, ?, ?)[0m  [["user_id", 2], ["pet_id", 0], ["location", "Sugar Land"]]
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/bookings_controller.rb:13:in `create'
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 2.5ms | Allocations: 2802)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:10:09 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.3ms | Allocations: 6042)
+
+
+Started POST "/bookings" for ::1 at 2020-06-18 11:10:22 -0500
+Processing by BookingsController#create as */*
+  Parameters: {"user_id"=>2, "pet_id"=>"Rafa", "location"=>"Sugar Land", "arrival"=>"2020-06-20", "booking"=>{"user_id"=>2, "pet_id"=>"Rafa", "arrival"=>"2020-06-20", "location"=>"Sugar Land"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mBooking Create (1.3ms)[0m  [1m[32mINSERT INTO "bookings" ("user_id", "pet_id", "location") VALUES (?, ?, ?)[0m  [["user_id", 2], ["pet_id", 0], ["location", "Sugar Land"]]
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/bookings_controller.rb:13:in `create'
+Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 3.3ms | Allocations: 2802)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:10:32 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.3ms | Allocations: 6042)
+
+
+Started POST "/bookings" for ::1 at 2020-06-18 11:10:44 -0500
+Processing by BookingsController#create as */*
+  Parameters: {"user_id"=>2, "pet_id"=>"Tood", "location"=>"Sugar Land", "arrival"=>"2020-06-20", "booking"=>{"user_id"=>2, "pet_id"=>"Tood", "arrival"=>"2020-06-20", "location"=>"Sugar Land"}}
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mBooking Create (0.5ms)[0m  [1m[32mINSERT INTO "bookings" ("user_id", "pet_id", "location") VALUES (?, ?, ?)[0m  [["user_id", 2], ["pet_id", 0], ["location", "Sugar Land"]]
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/bookings_controller.rb:13:in `create'
+Completed 200 OK in 74ms (Views: 0.4ms | ActiveRecord: 3.5ms | Allocations: 2807)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:10:54 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.3ms | Allocations: 6042)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 11:11:02 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Rafa", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Rafa", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.5ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "breed", "size") VALUES (?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Rafa"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 2.0ms | Allocations: 2830)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:11:21 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.3ms | Allocations: 6145)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 11:11:28 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.6ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Melike"], ["pet_type", "Cat"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 1.6ms | Allocations: 2841)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:11:28 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.3ms | Allocations: 6255)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 11:11:44 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (1.1ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Rafa"], ["pet_type", "Cat"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 2.0ms | Allocations: 2841)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:11:44 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.3ms | Allocations: 6365)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:12:06 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.2ms | Allocations: 6365)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 11:12:13 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.4ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Rafa"], ["pet_type", "Cat"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 2.7ms | Allocations: 2841)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:15:25 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.9ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 26ms (Views: 15.2ms | ActiveRecord: 0.9ms | Allocations: 6475)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:15:46 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.4ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.4ms | Allocations: 6475)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:15:55 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.3ms | Allocations: 6475)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:16:37 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.4ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.4ms | Allocations: 6475)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 11:16:45 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (0.6ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (1.4ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Rafa"], ["pet_type", "Cat"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 20ms (Views: 0.5ms | ActiveRecord: 4.9ms | Allocations: 2841)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:17:25 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.2ms | Allocations: 6586)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 11:17:32 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Podengo", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Podengo", "size"=>"Medium"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (1.0ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Rafa"], ["pet_type", "Cat"], ["breed", "Podengo"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 3.6ms | Allocations: 2841)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 11:17:46 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Podengo", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Rafa", "pet_type"=>"Cat", "breed"=>"Podengo", "size"=>"Medium"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (0.4ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Rafa"], ["pet_type", "Cat"], ["breed", "Podengo"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.4ms | Allocations: 2841)
+
+
+Started POST "/bookings" for ::1 at 2020-06-18 11:18:05 -0500
+Processing by BookingsController#create as */*
+  Parameters: {"user_id"=>2, "pet_id"=>"Rafa", "location"=>"Sugar Land", "arrival"=>"2020-06-26", "booking"=>{"user_id"=>2, "pet_id"=>"Rafa", "arrival"=>"2020-06-26", "location"=>"Sugar Land"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mBooking Create (0.6ms)[0m  [1m[32mINSERT INTO "bookings" ("user_id", "pet_id", "location") VALUES (?, ?, ?)[0m  [["user_id", 2], ["pet_id", 0], ["location", "Sugar Land"]]
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/bookings_controller.rb:13:in `create'
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 1.9ms | Allocations: 2802)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:21:14 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.7ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 67ms (Views: 63.3ms | ActiveRecord: 0.7ms | Allocations: 6808)
+
+
+Started POST "/bookings" for ::1 at 2020-06-18 11:21:26 -0500
+Processing by BookingsController#create as */*
+  Parameters: {"user_id"=>2, "pet_id"=>"Tood", "location"=>"Sugar Land", "arrival"=>"2020-06-20", "booking"=>{"user_id"=>2, "pet_id"=>"Tood", "arrival"=>"2020-06-20", "location"=>"Sugar Land"}}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mBooking Create (0.6ms)[0m  [1m[32mINSERT INTO "bookings" ("user_id", "pet_id", "location") VALUES (?, ?, ?)[0m  [["user_id", 2], ["pet_id", 0], ["location", "Sugar Land"]]
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/bookings_controller.rb:13:in `create'
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 3.1ms | Allocations: 2804)
+
+
+Started POST "/bookings" for ::1 at 2020-06-18 11:21:44 -0500
+Processing by BookingsController#create as */*
+  Parameters: {"user_id"=>2, "pet_id"=>"Rafa", "location"=>"Sugar Land", "arrival"=>"2020-06-20", "booking"=>{"user_id"=>2, "pet_id"=>"Rafa", "arrival"=>"2020-06-20", "location"=>"Sugar Land"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mBooking Create (0.5ms)[0m  [1m[32mINSERT INTO "bookings" ("user_id", "pet_id", "location") VALUES (?, ?, ?)[0m  [["user_id", 2], ["pet_id", 0], ["location", "Sugar Land"]]
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/bookings_controller.rb:13:in `create'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 1.4ms | Allocations: 2802)
+
+
+Started POST "/bookings" for ::1 at 2020-06-18 11:22:12 -0500
+Processing by BookingsController#create as */*
+  Parameters: {"user_id"=>2, "pet_id"=>"Tood", "location"=>"Sugar Land", "arrival"=>"2020-06-13", "booking"=>{"user_id"=>2, "pet_id"=>"Tood", "arrival"=>"2020-06-13", "location"=>"Sugar Land"}}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mBooking Create (0.6ms)[0m  [1m[32mINSERT INTO "bookings" ("user_id", "pet_id", "location") VALUES (?, ?, ?)[0m  [["user_id", 2], ["pet_id", 0], ["location", "Sugar Land"]]
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/bookings_controller.rb:13:in `create'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 1.5ms | Allocations: 2802)
+
+
+Started GET "/reviews" for ::1 at 2020-06-18 11:22:28 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (1.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 29ms (Views: 20.4ms | ActiveRecord: 1.6ms | Allocations: 7736)
+
+
+Started GET "/reviews" for ::1 at 2020-06-18 11:22:34 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms | Allocations: 3878)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 11:23:02 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.3ms | Allocations: 6805)
+
+
+Started POST "/login" for ::1 at 2020-06-18 12:36:38 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"", "password"=>"[FILTERED]", "authentication"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", ""], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 25ms (Views: 2.0ms | ActiveRecord: 0.9ms | Allocations: 780)
+
+
+Started POST "/login" for ::1 at 2020-06-18 12:36:52 -0500
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"pedo", "password"=>"[FILTERED]", "authentication"=>{"username"=>"pedo", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "pedo"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 625)
+
+
+Started POST "/users" for ::1 at 2020-06-18 12:40:21 -0500
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"Himelda", "password"=>"[FILTERED]", "address"=>"2332 Green Dr,Houston Tx", "email"=>"manrvaldez.92@gmail.com", "user"=>{"username"=>"Himelda", "address"=>"2332 Green Dr,Houston Tx", "email"=>"manrvaldez.92@gmail.com"}}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Himelda"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Himelda"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Completed 200 OK in 821ms (Views: 0.2ms | ActiveRecord: 1.1ms | Allocations: 198963)
+
+
+Started POST "/users" for ::1 at 2020-06-18 12:40:42 -0500
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"Rafitongo", "password"=>"[FILTERED]", "address"=>"2332 Green Dr,Houston Tx", "email"=>"manrvaldez.92@gmail.com", "user"=>{"username"=>"Rafitongo", "address"=>"2332 Green Dr,Houston Tx", "email"=>"manrvaldez.92@gmail.com"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Rafitongo"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Create (4.9ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "Rafitongo"], ["password_digest", "$2a$12$Hx5cCnO/zDxNBhOF62LYO.Pu35KWr5WQELBtpczm2O4w.YwQGZ7Lm"], ["address", "2332 Green Dr,Houston Tx"], ["email", "manrvaldez.92@gmail.com"]]
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? AND "users"."id" != ? LIMIT ?[0m  [["username", "Rafitongo"], ["id", 15], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Completed 200 OK in 228ms (Views: 0.1ms | ActiveRecord: 6.4ms | Allocations: 4567)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 12:44:19 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (1.0ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 1.0ms | Allocations: 6822)
+
+
+Started GET "/reviews" for ::1 at 2020-06-18 12:44:20 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.6ms | Allocations: 3893)
+
+
+Started GET "/pets" for ::1 at 2020-06-18 12:47:44 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.7ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 17ms (Views: 13.1ms | ActiveRecord: 0.7ms | Allocations: 6805)
+
+
+Started POST "/pets" for ::1 at 2020-06-18 12:50:02 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>2, "name"=>"Elsa", "pet_type"=>"Dog", "breed"=>"Turkish", "size"=>"Medium", "pet"=>{"user_id"=>2, "name"=>"Elsa", "pet_type"=>"Dog", "breed"=>"Turkish", "size"=>"Medium"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (1.7ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["name", "Elsa"], ["pet_type", "Dog"], ["breed", "Turkish"], ["size", "Medium"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 13ms (Views: 1.2ms | ActiveRecord: 3.6ms | Allocations: 2856)
+
+
+Started POST "/bookings" for ::1 at 2020-06-18 12:52:31 -0500
+Processing by BookingsController#create as */*
+  Parameters: {"user_id"=>2, "pet_id"=>"Rafa", "location"=>"Sugar Land", "arrival"=>"2020-06-20", "booking"=>{"user_id"=>2, "pet_id"=>"Rafa", "arrival"=>"2020-06-20", "location"=>"Sugar Land"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mBooking Create (1.1ms)[0m  [1m[32mINSERT INTO "bookings" ("user_id", "pet_id", "location") VALUES (?, ?, ?)[0m  [["user_id", 2], ["pet_id", 0], ["location", "Sugar Land"]]
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/bookings_controller.rb:4:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/bookings_controller.rb:13:in `create'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 2.0ms | Allocations: 2802)
+
+
+Started GET "/reviews" for ::1 at 2020-06-18 12:54:00 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms | Allocations: 3878)
+
+

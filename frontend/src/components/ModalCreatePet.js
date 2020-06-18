@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import { Jumbotron, Container, Button, Form, Row, Col } from "react-bootstrap";
+import { Notification } from "rsuite";
+import Paragraph from "./Paragraph";
 
 Modal.setAppElement("#root");
-
+window.Notification = Notification;
 export default function ModalCreatePet() {
   const [pet, setPet] = useState("");
 
@@ -16,7 +18,15 @@ export default function ModalCreatePet() {
     });
   };
 
+  let open = () => {
+    Notification.open({
+      title: "Registered!",
+      description: <Paragraph width={320} rows={3} />,
+    });
+  };
+
   const handleSubmit = (e) => {
+    open();
     e.preventDefault();
 
     let id = parseInt(localStorage.id);
@@ -44,7 +54,17 @@ export default function ModalCreatePet() {
           pet: { ...pet, newPet },
         });
       });
-    alert("ya chingaste morro");
+  };
+
+  let clearForm = (e) => {
+    e.preventDefault();
+    handleSubmit(e);
+    setPet({
+      name: "",
+      pet_type: "",
+      breed: "",
+      size: "",
+    });
   };
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -73,7 +93,7 @@ export default function ModalCreatePet() {
                   <Row>
                     <h1>Register Your Pet</h1>
                     <Col sm={8}>
-                      <Form onSubmit={handleSubmit}>
+                      <Form onSubmit={(e) => clearForm(e)}>
                         <Form.Group controlId="PetName">
                           <Form.Label>Pet Name</Form.Label>
                           <Form.Control

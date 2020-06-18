@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Modal from "react-modal";
 import { Jumbotron, Container, Button, Form, Row, Col } from "react-bootstrap";
+import { useHistory } from "react-router-dom";
+import { Notification } from "rsuite";
+import Paragraph2 from "./Paragraph2";
 
 Modal.setAppElement("#root");
 
@@ -32,6 +35,13 @@ export default function ModalCreatebooking() {
     });
   };
 
+  let open = () => {
+    Notification.open({
+      title: "You all set!",
+      description: <Paragraph2 width={320} rows={3} className="paragraph" />,
+    });
+  };
+
   const handleChangeService = (e) => {
     if (e.target.value == "Silver") {
       setService(70);
@@ -45,6 +55,7 @@ export default function ModalCreatebooking() {
   };
 
   const handleSubmit = (e) => {
+    open();
     e.preventDefault();
 
     let id = parseInt(localStorage.id);
@@ -73,7 +84,19 @@ export default function ModalCreatebooking() {
           booking: { ...booking, newbooking },
         });
       });
-    alert("ya chingaste morro");
+  };
+
+  let clearForm = (e) => {
+    e.preventDefault();
+    handleSubmit(e);
+    setBooking({
+      pet_id: "",
+      services: "",
+      fee: "",
+      location: "",
+      number_days: "",
+      arrival: "",
+    });
   };
 
   let name = localStorage.username;
@@ -95,7 +118,7 @@ export default function ModalCreatebooking() {
       >
         <Jumbotron className="JumbotronF" fluid>
           <Container fluid>
-            <Form onSubmit={handleSubmit}>
+            <Form onSubmit={(e) => clearForm(e)}>
               <Row>
                 <Col className="card6">
                   <h1>Make a Booking</h1>

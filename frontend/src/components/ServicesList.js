@@ -5,6 +5,7 @@ import ModalSilver from "./ModalSilver";
 import ModalGold from "./ModalGold";
 import ModalPlatinum from "./ModalPlatinum";
 import { Link } from "react-router-dom";
+import NavBar from "./NavBar";
 
 export default class ServiceList extends React.Component {
   openModal = (e) => {
@@ -15,6 +16,7 @@ export default class ServiceList extends React.Component {
   render() {
     return (
       <div>
+        <NavBar />
         <Jumbotron className="Jumbotron-card2">
           <div class="jumbotron jumbotron-fluid">
             <div class="container">

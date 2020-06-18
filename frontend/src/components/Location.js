@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Table from "react-bootstrap/Table";
+import NavBar from "./NavBar";
 import {
   GoogleMap,
   withScriptjs,
@@ -54,66 +55,70 @@ const WrappedMap = withScriptjs(withGoogleMap(Map));
 
 export default function Location() {
   return (
-    <div
-      style={{
-        width: "100vh",
-        height: "100vh",
-        margin: "auto",
-        marginTop: "35px",
-      }}
-    >
-      <WrappedMap
-        googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyDJvg5WPlOh_7Y6IHPCItqZTVQTCpC9aqs`}
-        loadingElement={<div style={{ height: `100%` }} />}
-        containerElement={<div style={{ height: `500px` }} />}
-        mapElement={<div style={{ height: `100%` }} />}
-      />
+    <div>
+      <NavBar />
 
-      <br />
-      <Table striped bordered hover>
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Location</th>
-            <th>Address</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>Downtown</td>
-            <td>
-              <a
-                href={`https://maps.google.com/maps/search/?api=1&query=29.7643,-95.3674`}
-              >
-                "410 Bagby St, Houston, TX 77002"
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>South Houston</td>
-            <td>
-              <a
-                href={`https://maps.google.com/maps/search/?api=1&query=29.6827,-95.4127`}
-              >
-                "1 Reliant Park, Houston, TX 77054"
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>The Heights</td>
-            <td>
-              <a
-                href={`https://maps.google.com/maps/search/?api=1&query=29.8081,-95.4066`}
-              >
-                "525 W 24th St, Houston, TX 77008"
-              </a>
-            </td>
-          </tr>
-        </tbody>
-      </Table>
+      <div
+        style={{
+          width: "100vh",
+          height: "100vh",
+          margin: "auto",
+          marginTop: "35px",
+        }}
+      >
+        <WrappedMap
+          googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyDJvg5WPlOh_7Y6IHPCItqZTVQTCpC9aqs`}
+          loadingElement={<div style={{ height: `100%` }} />}
+          containerElement={<div style={{ height: `500px` }} />}
+          mapElement={<div style={{ height: `100%` }} />}
+        />
+
+        <br />
+        <Table striped bordered hover>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Location</th>
+              <th>Address</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Downtown</td>
+              <td>
+                <a
+                  href={`https://maps.google.com/maps/search/?api=1&query=29.7643,-95.3674`}
+                >
+                  "410 Bagby St, Houston, TX 77002"
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>South Houston</td>
+              <td>
+                <a
+                  href={`https://maps.google.com/maps/search/?api=1&query=29.6827,-95.4127`}
+                >
+                  "1 Reliant Park, Houston, TX 77054"
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>The Heights</td>
+              <td>
+                <a
+                  href={`https://maps.google.com/maps/search/?api=1&query=29.8081,-95.4066`}
+                >
+                  "525 W 24th St, Houston, TX 77008"
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </Table>
+      </div>
     </div>
   );
 }

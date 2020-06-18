@@ -2,6 +2,7 @@ import React from "react";
 import { Jumbotron, Container } from "react-bootstrap";
 import ReviewList from "./ReviewList";
 import ReviewForm from "./ReviewsForm";
+import NavBar from "./NavBar";
 
 class Comunity extends React.Component {
   state = {
@@ -43,6 +44,7 @@ class Comunity extends React.Component {
   render() {
     return (
       <div>
+        <NavBar />
         <Jumbotron fluid className="Jumbotron">
           <div className="row row-cols-2 row-cols-md-2">
             <div>

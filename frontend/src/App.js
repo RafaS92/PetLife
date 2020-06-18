@@ -18,7 +18,6 @@ class App extends React.Component {
   render() {
     return (
       <div className="App-color container">
-        <NavBar />
         <BrowserRouter>
           <Switch>
             <Route exact path="/login" component={Login} />
@@ -35,6 +34,7 @@ class App extends React.Component {
                 <br />
                 <br />
                 <br />
+
                 <h2>FOLLOW US</h2>
                 <i class="fab fa-facebook ml-4 fa-3x"></i>
                 <i class="fab fa-instagram ml-4 fa-3x"></i>

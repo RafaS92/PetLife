@@ -6,6 +6,7 @@ import ModalBasic from "./ModalBasic";
 import ModalSilver from "./ModalSilver";
 import ModalGold from "./ModalGold";
 import ModalPlatinum from "./ModalPlatinum";
+import NavBar from "./NavBar";
 
 class Home extends React.Component {
   state = {
@@ -17,6 +18,7 @@ class Home extends React.Component {
     console.log(this.props.location.state);
     return (
       <div>
+        <NavBar />
         <div className="banner">
           <video autoPlay muted loop>
             <source src="/videos/cutDogs.mp4" type="video/mp4" />

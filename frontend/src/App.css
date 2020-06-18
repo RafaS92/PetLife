@@ -122,6 +122,9 @@
   width: 100%;
 }
 
+.paragraph {
+  background-color: rgb(255, 0, 0);
+}
 .Jumbotron {
   background-color: rgb(238, 229, 229);
   margin-bottom: 0px;
@@ -221,6 +224,14 @@
   background-position: center;
   margin-bottom: 0px;
   font-family: "Roboto Slab";
+}
+
+.presentation {
+  font-family: "Roboto Slab";
+}
+
+.presentation2 {
+  font-family: Raleway;
 }
 
 .Jumbotron4 p {
@@ -346,6 +357,20 @@
   box-shadow: 10px 10px 5px 0px black;
 }
 
+.card8 {
+  background-image: url("https://images.assetsdelivery.com/compings_v2/sgtsagan/sgtsagan1905/sgtsagan190500392.jpg");
+  padding-top: 10px;
+  font-weight: bold;
+  width: 500px;
+  height: 450px;
+  margin-top: 10px;
+
+  margin-left: 100px;
+  padding: 30px;
+  box-shadow: 10px 10px 5px 0px black;
+  align-self: center;
+}
+
 .Jumbotron-card {
   background-color: #f3f3f3;
 
@@ -391,12 +416,14 @@
   height: 290px;
   margin-left: 90px;
   margin-top: 90px;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.8);
 }
 
 .img-form3 {
   width: 80%;
   height: 290px;
   margin-top: 90px;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.8);
 }
 
 img-form-jumbo {
@@ -406,6 +433,7 @@ img-form-jumbo {
 .card-img-top2 {
   width: 80%;
   height: 290px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8);
 }
 
 .sizemodal2 {
