@@ -17,14 +17,15 @@ export default class NavBar extends React.Component {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/services">Services</Nav.Link>
             <Nav.Link href="/booking">Booking</Nav.Link>
             <Nav.Link href="/comunity">Comunity</Nav.Link>
             <Nav.Link href="/locations">Location</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">Log out</Nav.Link>
+            <Nav.Link href="/login" onClick={() => localStorage.clear()}>
+              Log out
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

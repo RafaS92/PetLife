@@ -6,7 +6,7 @@ import Paragraph from "./Paragraph";
 
 Modal.setAppElement("#root");
 window.Notification = Notification;
-export default function ModalCreatePet() {
+export default function ModalCreatePet(props) {
   const [pet, setPet] = useState("");
 
   const handleChange = (e) => {
@@ -53,6 +53,7 @@ export default function ModalCreatePet() {
         setPet({
           pet: { ...pet, newPet },
         });
+        props.setNewPet(newPet);
       });
   };
 

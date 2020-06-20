@@ -5,7 +5,13 @@ import { Jumbotron } from "react-bootstrap";
 import NavBar from "./NavBar";
 
 class Booking extends React.Component {
-  state = {};
+  state = { newPet: null };
+
+  setNewPet = (pet) => {
+    this.setState({
+      newPet: pet,
+    });
+  };
   render() {
     return (
       <div>
@@ -38,6 +44,7 @@ class Booking extends React.Component {
                 <div class="card-body">
                   <a onClick={this.openModal}></a>
                   <ModalCreatePet
+                    setNewPet={this.setNewPet}
                     ref={(node) => {
                       this.modal = node;
                     }}
@@ -63,6 +70,7 @@ class Booking extends React.Component {
                 <div class="card-body">
                   <a onClick={this.openModal}></a>
                   <ModalCreateBooking
+                    newPet={this.state.newPet}
                     ref={(node) => {
                       this.modal = node;
                     }}

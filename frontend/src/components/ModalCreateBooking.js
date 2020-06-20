@@ -7,7 +7,7 @@ import Paragraph2 from "./Paragraph2";
 
 Modal.setAppElement("#root");
 
-export default function ModalCreatebooking() {
+export default function ModalCreatebooking(props) {
   const [booking, setBooking] = useState("");
   const [pets, setPets] = useState([]);
   // const [fee, setFee] = useState(0);
@@ -22,7 +22,7 @@ export default function ModalCreatebooking() {
       .then((petsArray) => {
         setPets(petsArray);
       });
-  }, []);
+  }, [props.newPet]);
 
   let id = parseInt(localStorage.id);
   let filteredPets = pets.filter((pet) => pet.user_id == id);
@@ -123,7 +123,7 @@ export default function ModalCreatebooking() {
                 <Col className="card6">
                   <h1>Make a Booking</h1>
                   <Form.Group>
-                    <Form.Label>Pet id</Form.Label>
+                    <Form.Label>Pet name</Form.Label>
 
                     <Form.Control
                       as="select"

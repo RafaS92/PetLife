@@ -9,14 +9,17 @@ require "pry"
 require "faker"
 
 
-u1 =   User.create({username: "Himelda",password:"123",address: Faker::Address.full_address,email: Faker::Internet.email})
+u1= User.create({username: "Rafael",password:"123456789",address: Faker::Address.full_address,email: Faker::Internet.email})
+u4 =   User.create({username: "Himelda",password:"123",address: Faker::Address.full_address,email: Faker::Internet.email})
 u2 =   User.create({username: "Venma",password:"123",address: Faker::Address.full_address,email: Faker::Internet.email})
 u3 =   User.create({username: Faker::Name.first_name,password:"123",address: Faker::Address.full_address,email: Faker::Internet.email})
 
-
-p1= Pet.create({user_id: u1.id, name:"churro", pet_type:"Dog",breed:"chihuahua",size:"small"})
+# p1= Pet.create({user_id: u1.id, name:"Elsa", pet_type:"Dog",breed:"chihuahua",size:"small"})
+# p1= Pet.create({user_id: u1.id, name:"Motita", pet_type:"Dog",breed:"podengo",size:"medium"})
+p1= Pet.create({user_id: u2.id, name:"churro", pet_type:"Dog",breed:"chihuahua",size:"small"})
 p2= Pet.create({user_id: u2.id, name: "Dali", pet_type:"Dog",breed:"podengo",size:"small"})
-p3= Pet.create({user_id: User.all.sample.id, name: "Grump", pet_type:"Cat",breed:"maloroto",size:"small"})
+p3= Pet.create({user_id: u2.id, name: "Grump", pet_type:"Cat",breed:"maloroto",size:"small"})
+
 
 b1 = Booking.create({user_id:u1.id, pet_id: p1.id,services:"platinum",fee:"10", location:"Downtown"})
 b2 = Booking.create({user_id:u2.id,pet_id: p2.id,services:"gold",fee:"10",location:"Sugar Land"})

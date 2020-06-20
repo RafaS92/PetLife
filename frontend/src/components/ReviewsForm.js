@@ -30,7 +30,7 @@ class ReviewForm extends React.Component {
         <Container>
           <form className="card7" onSubmit={(e) => this.clearForm(e)}>
             <h3>Join To Our Comunity</h3>
-            <h4>Dog's name:</h4>
+            <h4>Pet's name:</h4>
             <input
               type="text"
               name="username"
