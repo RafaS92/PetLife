@@ -4,7 +4,6 @@ import ModalBasic from "./ModalBasic";
 import ModalSilver from "./ModalSilver";
 import ModalGold from "./ModalGold";
 import ModalPlatinum from "./ModalPlatinum";
-import { Link } from "react-router-dom";
 import NavBar from "./NavBar";
 
 export default class ServiceList extends React.Component {
@@ -57,7 +56,7 @@ export default class ServiceList extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a onClick={this.openModal}></a>
+                  <button onClick={this.openModal}></button>
                   <ModalBasic
                     ref={(node) => {
                       this.modal = node;
@@ -82,7 +81,7 @@ export default class ServiceList extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a onClick={this.openModal}></a>
+                  <button onClick={this.openModal}></button>
                   <ModalSilver
                     ref={(node) => {
                       this.modal = node;
@@ -106,7 +105,7 @@ export default class ServiceList extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a onClick={this.openModal}></a>
+                  <button onClick={this.openModal}></button>
                   <ModalGold
                     ref={(node) => {
                       this.modal = node;
@@ -131,7 +130,7 @@ export default class ServiceList extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a onClick={this.openModal}></a>
+                  <button onClick={this.openModal}></button>
                   <ModalPlatinum
                     ref={(node) => {
                       this.modal = node;

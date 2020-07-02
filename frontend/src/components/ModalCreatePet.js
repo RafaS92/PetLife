@@ -87,6 +87,7 @@ export default function ModalCreatePet(props) {
                 <img
                   src="https://losangeles.cbslocal.com/wp-content/uploads/sites/14984641/2018/05/gettyimages-963167968.jpg?w=1024&h=0&crop=1"
                   className="img-form3"
+                  alt=""
                 />
               </div>
               <div className="col mb-2 card4">

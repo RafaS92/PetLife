@@ -1,7 +1,6 @@
 import React from "react";
 // import Jumbotron from "./Jumbotron";
-import { Jumbotron, Button, Carousel, Container } from "react-bootstrap";
-import Location from "./Location";
+import { Jumbotron, Carousel, Container } from "react-bootstrap";
 import ModalBasic from "./ModalBasic";
 import ModalSilver from "./ModalSilver";
 import ModalGold from "./ModalGold";
@@ -31,7 +30,7 @@ class Home extends React.Component {
           <Container>
             <div className="row row-cols-2 row-cols-md-1">
               <div className="col separator mb-2 ">
-                <i class="fas fa-paw fa-3x"></i>
+                <i className="fas fa-paw fa-3x"></i>
                 <h1>WELCOME TO PET LIFE HOTEL</h1>
                 <br />
                 <h3>
@@ -103,22 +102,26 @@ class Home extends React.Component {
         </Carousel>
 
         <Jumbotron className="Jumbotron-card">
-          <h1 class="display-4">Services</h1>
+          <h1 className="display-4">Services</h1>
           <div className="row row-cols-1 row-cols-md-4">
             <div className="col mb-2">
-              <div class="card">
+              <div className="card">
                 <div className="inner">
-                  <img src="/images/card1.jpg" class="card-img-top" alt="..." />
+                  <img
+                    src="/images/card1.jpg"
+                    className="card-img-top"
+                    alt="..."
+                  />
                 </div>
-                <div class="card-body">
-                  <h4 class="card-title">Basic</h4>
-                  <p class="card-text">
+                <div className="card-body">
+                  <h4 className="card-title">Basic</h4>
+                  <p className="card-text">
                     Check the details of our basic package.
                   </p>
                 </div>
 
-                <div class="card-body">
-                  <a onClick={this.openModal}></a>
+                <div className="card-body">
+                  <button onClick={this.openModal}></button>
                   <ModalBasic
                     ref={(node) => {
                       this.modal = node;
@@ -129,21 +132,25 @@ class Home extends React.Component {
             </div>
 
             <div className="col mb-2">
-              <div class="card">
+              <div className="card">
                 <div className="inner">
-                  <img src="/images/card2.jpg" class="card-img-top" alt="..." />
+                  <img
+                    src="/images/card2.jpg"
+                    className="card-img-top"
+                    alt="..."
+                  />
                 </div>
-                <div class="card-body">
-                  <h4 class="card-title">Silver</h4>
-                  <p class="card-text">
+                <div className="card-body">
+                  <h4 className="card-title">Silver</h4>
+                  <p className="card-text">
                     {" "}
                     Our silver package is one of the most love package of our
                     customers.
                   </p>
                 </div>
 
-                <div class="card-body">
-                  <a onClick={this.openModal}></a>
+                <div className="card-body">
+                  <button onClick={this.openModal}></button>
                   <ModalSilver
                     ref={(node) => {
                       this.modal = node;
@@ -154,19 +161,23 @@ class Home extends React.Component {
             </div>
 
             <div className="col mb-2">
-              <div class="card">
+              <div className="card">
                 <div className="inner">
-                  <img src="/images/card3.jpg" class="card-img-top" alt="..." />
+                  <img
+                    src="/images/card3.jpg"
+                    className="card-img-top"
+                    alt="..."
+                  />
                 </div>
-                <div class="card-body">
-                  <h4 class="card-title">Gold</h4>
-                  <p class="card-text">
+                <div className="card-body">
+                  <h4 className="card-title">Gold</h4>
+                  <p className="card-text">
                     Do you want to treat your pet? The gold package is for you.
                   </p>
                 </div>
 
-                <div class="card-body">
-                  <a onClick={this.openModal}></a>
+                <div className="card-body">
+                  <button onClick={this.openModal}></button>
                   <ModalGold
                     ref={(node) => {
                       this.modal = node;
@@ -177,21 +188,25 @@ class Home extends React.Component {
             </div>
 
             <div className="col mb-2">
-              <div class="card">
+              <div className="card">
                 <div className="inner">
-                  <img src="/images/card4.jpg" class="card-img-top" alt="..." />
+                  <img
+                    src="/images/card4.jpg"
+                    className="card-img-top"
+                    alt="..."
+                  />
                 </div>
-                <div class="card-body">
-                  <h4 class="card-title">Platinum</h4>
-                  <p class="card-text">
+                <div className="card-body">
+                  <h4 className="card-title">Platinum</h4>
+                  <p className="card-text">
                     {" "}
                     Your pet deserve threat like a king? We have the perfect
                     option for you.
                   </p>
                 </div>
 
-                <div class="card-body">
-                  <a onClick={this.openModal}></a>
+                <div className="card-body">
+                  <button onClick={this.openModal}></button>
                   <ModalPlatinum
                     ref={(node) => {
                       this.modal = node;
@@ -210,6 +225,7 @@ class Home extends React.Component {
                 <img
                   src="https://www.thearkspa.com/images/content/img_9193-g626xx.jpg"
                   className="img-jumbotron2"
+                  alt=""
                 />
               </div>
               <div className="col mb-2 ">

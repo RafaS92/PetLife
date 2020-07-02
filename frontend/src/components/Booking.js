@@ -42,7 +42,7 @@ class Booking extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a onClick={this.openModal}></a>
+                  <button onClick={this.openModal}></button>
                   <ModalCreatePet
                     setNewPet={this.setNewPet}
                     ref={(node) => {
@@ -68,7 +68,7 @@ class Booking extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a onClick={this.openModal}></a>
+                  <button onClick={this.openModal}></button>
                   <ModalCreateBooking
                     newPet={this.state.newPet}
                     ref={(node) => {
