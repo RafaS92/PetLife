@@ -1,6 +1,5 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import Comunity from "./Comunity";
 
 export default class NavBar extends React.Component {
   render() {

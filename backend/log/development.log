@@ -15126,3 +15126,251 @@ Processing by ReviewsController#index as */*
 Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.9ms | Allocations: 3114)
 
 
+Started POST "/login" for ::1 at 2020-06-24 11:09:52 -0500
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Rafael ", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Rafael ", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Rafael "], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 10ms (Views: 0.6ms | ActiveRecord: 0.9ms | Allocations: 4097)
+
+
+Started POST "/login" for ::1 at 2020-06-24 11:10:00 -0500
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Rafael ", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Rafael ", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Rafael "], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 641)
+
+
+Started POST "/users" for ::1 at 2020-06-24 11:10:10 -0500
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"pepe", "password"=>"[FILTERED]", "address"=>"8639 Greiner Drive", "email"=>"manrvaldez.92@gmail.com", "user"=>{"username"=>"pepe", "address"=>"8639 Greiner Drive", "email"=>"manrvaldez.92@gmail.com"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "pepe"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Create (1.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "pepe"], ["password_digest", "$2a$12$77nXRjROHuMhMI94YVXiXu8DZgFZs9aVTsQ5LahaEoneKuSdjhpAi"], ["address", "8639 Greiner Drive"], ["email", "manrvaldez.92@gmail.com"]]
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? AND "users"."id" != ? LIMIT ?[0m  [["username", "pepe"], ["id", 71], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Completed 200 OK in 243ms (Views: 0.1ms | ActiveRecord: 3.4ms | Allocations: 8207)
+
+
+Started POST "/login" for ::1 at 2020-06-24 11:10:21 -0500
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"pepe", "password"=>"[FILTERED]", "authentication"=>{"username"=>"pepe", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "pepe"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 211ms (Views: 1.2ms | ActiveRecord: 0.1ms | Allocations: 694)
+
+
+Started POST "/login" for ::1 at 2020-06-24 11:10:30 -0500
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"pepe", "password"=>"[FILTERED]", "authentication"=>{"username"=>"pepe", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "pepe"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 214ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 668)
+
+
+Started GET "/reviews" for ::1 at 2020-06-24 11:39:17 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (1.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 23ms (Views: 10.3ms | ActiveRecord: 1.6ms | Allocations: 7395)
+
+
+Started POST "/login" for ::1 at 2020-06-24 11:51:44 -0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"pepe", "password"=>"[FILTERED]", "authentication"=>{"username"=>"pepe", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "pepe"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 216ms (Views: 0.8ms | ActiveRecord: 0.9ms | Allocations: 686)
+
+
+Started GET "/reviews" for ::1 at 2020-06-24 11:52:46 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (1.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 1.3ms | Allocations: 3116)
+
+
+Started GET "/reviews" for ::1 at 2020-06-24 11:52:51 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.2ms | Allocations: 3101)
+
+
+Started GET "/pets" for ::1 at 2020-06-30 20:03:50 -0500
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.5ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 22ms (Views: 7.7ms | ActiveRecord: 1.0ms | Allocations: 8345)
+
+
+Started GET "/reviews" for ::1 at 2020-06-30 20:04:20 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 11ms (Views: 6.4ms | ActiveRecord: 1.3ms | Allocations: 6985)
+
+
+Started GET "/reviews" for ::1 at 2020-06-30 20:06:23 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (1.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 15ms (Views: 8.0ms | ActiveRecord: 2.2ms | Allocations: 7799)
+
+
+Started POST "/reviews" for ::1 at 2020-06-30 20:06:42 -0500
+Processing by ReviewsController#create as */*
+  Parameters: {"user_id"=>1, "username"=>"Cristo", "text"=>"wewewe", "image"=>"https://pbs.twimg.com/profile_images/739870283524362241/Ah2ZefYl_400x400.jpg", "review"=>{"user_id"=>1, "username"=>"Cristo", "text"=>"wewewe", "image"=>"https://pbs.twimg.com/profile_images/739870283524362241/Ah2ZefYl_400x400.jpg"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reviews_controller.rb:5:in `create'
+  [1m[36mReview Create (2.4ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Cristo"], ["text", "wewewe"], ["image", "https://pbs.twimg.com/profile_images/739870283524362241/Ah2ZefYl_400x400.jpg"]]
+  ↳ app/controllers/reviews_controller.rb:5:in `create'
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/reviews_controller.rb:5:in `create'
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 3.4ms | Allocations: 2556)
+
+
+Started GET "/reviews" for ::1 at 2020-06-30 20:11:09 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.2ms | Allocations: 3213)
+
+
+Started GET "/pets" for ::1 at 2020-06-30 20:11:11 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.6ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 21ms (Views: 13.5ms | ActiveRecord: 1.4ms | Allocations: 6650)
+
+
+Started GET "/reviews" for ::1 at 2020-06-30 20:12:49 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.2ms | Allocations: 3196)
+
+
+Started GET "/" for ::1 at 2020-07-01 20:01:03 -0500
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rafas/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rafas/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.6ms | Allocations: 471)
+Completed 200 OK in 30ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 2534)
+
+
+Started GET "/pets" for ::1 at 2020-07-01 20:01:10 -0500
+Processing by PetsController#index as HTML
+  [1m[36mPet Load (0.6ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 26ms (Views: 20.0ms | ActiveRecord: 1.2ms | Allocations: 7621)
+
+
+Started POST "/login" for ::1 at 2020-07-01 20:02:40 -0500
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"", "password"=>"[FILTERED]", "authentication"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", ""], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 26ms (Views: 0.2ms | ActiveRecord: 1.9ms | Allocations: 3839)
+
+
+Started POST "/login" for ::1 at 2020-07-01 20:03:12 -0500
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Rafael", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Rafael", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Rafael"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 228ms (Views: 0.1ms | ActiveRecord: 0.5ms | Allocations: 3793)
+
+
+Started GET "/pets" for ::1 at 2020-07-01 20:03:37 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.2ms | Allocations: 1312)
+
+
+Started POST "/pets" for ::1 at 2020-07-01 20:03:53 -0500
+Processing by PetsController#create as */*
+  Parameters: {"user_id"=>67, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Large", "pet"=>{"user_id"=>67, "name"=>"Melike", "pet_type"=>"Cat", "breed"=>"Turkish", "size"=>"Large"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mPet Create (2.4ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 67], ["name", "Melike"], ["pet_type", "Cat"], ["breed", "Turkish"], ["size", "Large"]]
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pets_controller.rb:4:in `create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 67], ["LIMIT", 1]]
+  ↳ app/controllers/pets_controller.rb:11:in `create'
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 3.4ms | Allocations: 3344)
+
+
+Started GET "/pets" for ::1 at 2020-07-01 20:03:53 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.2ms | Allocations: 1422)
+
+
+Started GET "/reviews" for ::1 at 2020-07-01 20:06:35 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 1.5ms | Allocations: 7041)
+
+
+Started POST "/reviews" for ::1 at 2020-07-01 20:06:57 -0500
+Processing by ReviewsController#create as */*
+  Parameters: {"user_id"=>67, "username"=>"Rafael Valdez", "text"=>"kkkk", "image"=>"https://pbs.twimg.com/profile_images/739870283524362241/Ah2ZefYl_400x400.jpg", "review"=>{"user_id"=>67, "username"=>"Rafael Valdez", "text"=>"kkkk", "image"=>"https://pbs.twimg.com/profile_images/739870283524362241/Ah2ZefYl_400x400.jpg"}}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reviews_controller.rb:5:in `create'
+  [1m[36mReview Create (0.4ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 67], ["username", "Rafael Valdez"], ["text", "kkkk"], ["image", "https://pbs.twimg.com/profile_images/739870283524362241/Ah2ZefYl_400x400.jpg"]]
+  ↳ app/controllers/reviews_controller.rb:5:in `create'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/reviews_controller.rb:5:in `create'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 1.4ms | Allocations: 2371)
+
+
+Started GET "/reviews" for ::1 at 2020-07-02 11:55:52 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (1.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 15ms (Views: 11.3ms | ActiveRecord: 1.2ms | Allocations: 3311)
+
+
+Started GET "/pets" for ::1 at 2020-07-02 11:56:05 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (1.0ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 1.0ms | Allocations: 1439)
+
+
+Started GET "/pets" for ::1 at 2020-07-02 12:04:28 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.6ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.6ms | Allocations: 1442)
+
+
+Started GET "/reviews" for ::1 at 2020-07-02 12:05:03 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (1.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 1.4ms | Allocations: 3308)
+
+

@@ -1,5 +1,5 @@
 import React from "react";
-import { Jumbotron, Container } from "react-bootstrap";
+import { Jumbotron } from "react-bootstrap";
 import ReviewList from "./ReviewList";
 import ReviewForm from "./ReviewsForm";
 import NavBar from "./NavBar";
@@ -51,6 +51,7 @@ class Comunity extends React.Component {
               <img
                 className="col mb-3 img-jumbotron"
                 src="https://cloudinary-res.cloudinary.com/image/upload/Pawsy.jpg"
+                alt=""
               />
             </div>
             <div className="col mb-1 ">
