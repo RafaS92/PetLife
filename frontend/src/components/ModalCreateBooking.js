@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Modal from "react-modal";
 import { Jumbotron, Container, Button, Form, Row, Col } from "react-bootstrap";
-import { useHistory } from "react-router-dom";
 import { Notification } from "rsuite";
 import Paragraph2 from "./Paragraph2";
 
@@ -25,7 +24,7 @@ export default function ModalCreatebooking(props) {
   }, [props.newPet]);
 
   let id = parseInt(localStorage.id);
-  let filteredPets = pets.filter((pet) => pet.user_id == id);
+  let filteredPets = pets.filter((pet) => pet.user_id === id);
   const handleChange = (e) => {
     // console.log(e.target.value);
     // console.log(e.target.name);
@@ -43,13 +42,13 @@ export default function ModalCreatebooking(props) {
   };
 
   const handleChangeService = (e) => {
-    if (e.target.value == "Silver") {
+    if (e.target.value === "Silver") {
       setService(70);
-    } else if (e.target.value == "Basic") {
+    } else if (e.target.value === "Basic") {
       setService(60);
-    } else if (e.target.value == "Gold") {
+    } else if (e.target.value === "Gold") {
       setService(80);
-    } else if (e.target.value == "Platinum") {
+    } else if (e.target.value === "Platinum") {
       setService(99.99);
     }
   };
@@ -98,10 +97,6 @@ export default function ModalCreatebooking(props) {
       arrival: "",
     });
   };
-
-  let name = localStorage.username;
-
-  // console.log(localStorage);
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
   let fee = numberD * service;
@@ -167,7 +162,6 @@ export default function ModalCreatebooking(props) {
                       onChange={(e) => {
                         handleChange(e);
                       }}
-                      value={booking.location}
                     >
                       <option>Downtown</option>
                       <option>Sugar Land</option>
@@ -231,6 +225,7 @@ export default function ModalCreatebooking(props) {
                   <img
                     src="https://s3.amazonaws.com/petcentral.com/wp-content/uploads/2019/07/22160617/dog-hotel-article.jpg"
                     className="img-form"
+                    alt=""
                   />
                 </Col>
               </Row>

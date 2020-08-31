@@ -3,11 +3,9 @@ import ReviewCard from "./ReviewCard";
 
 const ReviewList = (props) => {
   return (
-    <div className="cards row row-cols-1 row-cols-md-4">
+    <div className="cards-container">
       {props.reviews.map((review) => (
-        <div className="col md-2">
-          <ReviewCard review={review} key={review.id} />
-        </div>
+        <ReviewCard className="flex-card" review={review} key={review.id} />
       ))}
     </div>
   );

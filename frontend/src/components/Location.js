@@ -74,7 +74,7 @@ export default function Location() {
         />
 
         <br />
-        <Table striped bordered hover>
+        <Table className="table1" striped bordered hover>
           <thead>
             <tr>
               <th>#</th>

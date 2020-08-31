@@ -7,11 +7,11 @@ import Home from "./components/Home";
 import "./App.css";
 import ServicesList from "./components/ServicesList";
 import Location from "./components/Location";
-import { Jumbotron } from "react-bootstrap";
-import { Link } from "react-router-dom";
+
 import Booking from "./components/Booking";
 import Comunity from "./components/Comunity";
 import ReviewList from "./components/ReviewList";
+import Footer from "./components/Footer";
 
 class App extends React.Component {
   render() {
@@ -19,14 +19,15 @@ class App extends React.Component {
       <div className="App-color container">
         <BrowserRouter>
           <Switch>
-            <Route exact path="/login" component={Login} />
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={Login} />
+            <Route exact path="/home" component={Home} />
             <Route exact path="/services" component={ServicesList} />
             <Route exact path="/locations" component={Location} />
             <Route exact path="/booking" component={Booking} />
             <Route exact path="/comunity" component={Comunity} />
             <Route exact path="/r" component={ReviewList} />
           </Switch>
+
           <Jumbotron fluid className="Jumbotron-bottom">
             <div className="row row-cols-2 row-cols-md-3">
               <div className="col mb-2 ">
@@ -75,6 +76,8 @@ class App extends React.Component {
               <p>© 2020 Pet Life. All Rights Reserved.</p>
             </div>
           </Jumbotron>
+          <Footer />
+
         </BrowserRouter>
       </div>
     );

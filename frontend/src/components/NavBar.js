@@ -1,6 +1,5 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import Comunity from "./Comunity";
 
 export default class NavBar extends React.Component {
   render() {
@@ -12,7 +11,7 @@ export default class NavBar extends React.Component {
         variant="dark"
         sticky="top"
       >
-        <Navbar.Brand href="/">Pet Life</Navbar.Brand>
+        <Navbar.Brand href="/home">Pet Life</Navbar.Brand>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -23,7 +22,7 @@ export default class NavBar extends React.Component {
             <Nav.Link href="/locations">Location</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="/login" onClick={() => localStorage.clear()}>
+            <Nav.Link href="/" onClick={() => localStorage.clear()}>
               Log out
             </Nav.Link>
           </Nav>

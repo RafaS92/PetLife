@@ -18,7 +18,9 @@ class Booking extends React.Component {
         <NavBar />
         <Jumbotron fluid className="Jumbotron-title">
           <div>
-            <h1>"Your Dog Never Enjoyed So Much"</h1>
+            <h1 className="Jumbotron-title-mkt">
+              "Your Dog Never Enjoyed So Much"
+            </h1>
           </div>
         </Jumbotron>
         <Jumbotron className="Jumbotron-card">
@@ -42,7 +44,7 @@ class Booking extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a onClick={this.openModal}></a>
+                  <button onClick={this.openModal}></button>
                   <ModalCreatePet
                     setNewPet={this.setNewPet}
                     ref={(node) => {
@@ -68,7 +70,7 @@ class Booking extends React.Component {
                 </div>
 
                 <div class="card-body">
-                  <a onClick={this.openModal}></a>
+                  <button onClick={this.openModal}></button>
                   <ModalCreateBooking
                     newPet={this.state.newPet}
                     ref={(node) => {

@@ -1,6 +1,5 @@
 import React from "react";
 import { Jumbotron, Container } from "react-bootstrap";
-import Comunity from "./Comunity";
 class ReviewForm extends React.Component {
   state = {
     username: "",

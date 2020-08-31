@@ -4,7 +4,6 @@ import ModalBasic from "./ModalBasic";
 import ModalSilver from "./ModalSilver";
 import ModalGold from "./ModalGold";
 import ModalPlatinum from "./ModalPlatinum";
-import { Link } from "react-router-dom";
 import NavBar from "./NavBar";
 
 export default class ServiceList extends React.Component {
@@ -39,7 +38,7 @@ export default class ServiceList extends React.Component {
           <h1 className="display-4">Services</h1>
           <div className="row row-cols-1 row-cols-md-4">
             <div className="col mb-2">
-              <div className="card" style={{ width: "20rem" }}>
+              <div className="card">
                 <div className="inner">
                   <img
                     src="/images/card1.jpg"
@@ -47,17 +46,15 @@ export default class ServiceList extends React.Component {
                     alt="..."
                   />
                 </div>
-                <div class="card-body">
-                  <h4 class="card-title">Basic</h4>
-                  <p class="card-text">
-                    {" "}
+                <div className="card-body">
+                  <h4 className="card-title">Basic</h4>
+                  <p className="card-text">
                     Check the details of our basic package.
-                    <p></p>
                   </p>
                 </div>
 
-                <div class="card-body">
-                  <a onClick={this.openModal}></a>
+                <div className="card-body">
+                  <button onClick={this.openModal}></button>
                   <ModalBasic
                     ref={(node) => {
                       this.modal = node;
@@ -68,21 +65,25 @@ export default class ServiceList extends React.Component {
             </div>
 
             <div className="col mb-2">
-              <div class="card" style={{ width: "18 rem" }}>
+              <div className="card">
                 <div className="inner">
-                  <img src="/images/card2.jpg" class="card-img-top" alt="..." />
+                  <img
+                    src="/images/card2.jpg"
+                    className="card-img-top"
+                    alt="..."
+                  />
                 </div>
-                <div class="card-body">
-                  <h4 class="card-title">Silver</h4>
-                  <p class="card-text">
+                <div className="card-body">
+                  <h4 className="card-title">Silver</h4>
+                  <p className="card-text">
                     {" "}
                     Our silver package is one of the most love package of our
                     customers.
                   </p>
                 </div>
 
-                <div class="card-body">
-                  <a onClick={this.openModal}></a>
+                <div className="card-body">
+                  <button onClick={this.openModal}></button>
                   <ModalSilver
                     ref={(node) => {
                       this.modal = node;
@@ -93,20 +94,23 @@ export default class ServiceList extends React.Component {
             </div>
 
             <div className="col mb-2">
-              <div class="card" style={{ width: "18 rem" }}>
+              <div className="card">
                 <div className="inner">
-                  <img src="/images/card3.jpg" class="card-img-top" alt="..." />
+                  <img
+                    src="/images/card3.jpg"
+                    className="card-img-top"
+                    alt="..."
+                  />
                 </div>
-                <div class="card-body">
-                  <h4 class="card-title">Gold</h4>
-                  <p class="card-text">
-                    {" "}
+                <div className="card-body">
+                  <h4 className="card-title">Gold</h4>
+                  <p className="card-text">
                     Do you want to treat your pet? The gold package is for you.
                   </p>
                 </div>
 
-                <div class="card-body">
-                  <a onClick={this.openModal}></a>
+                <div className="card-body">
+                  <button onClick={this.openModal}></button>
                   <ModalGold
                     ref={(node) => {
                       this.modal = node;
@@ -117,21 +121,25 @@ export default class ServiceList extends React.Component {
             </div>
 
             <div className="col mb-2">
-              <div class="card" style={{ width: "20rem" }}>
+              <div className="card">
                 <div className="inner">
-                  <img src="/images/card4.jpg" class="card-img-top" alt="..." />
+                  <img
+                    src="/images/card4.jpg"
+                    className="card-img-top"
+                    alt="..."
+                  />
                 </div>
-                <div class="card-body">
-                  <h4 class="card-title">Platinum</h4>
-                  <p class="card-text">
+                <div className="card-body">
+                  <h4 className="card-title">Platinum</h4>
+                  <p className="card-text">
                     {" "}
-                    Your pet deserves to be treated like a king? We have the
-                    perfect option for you.
+                    Your pet deserve threat like a king? We have the perfect
+                    option for you.
                   </p>
                 </div>
 
-                <div class="card-body">
-                  <a onClick={this.openModal}></a>
+                <div className="card-body">
+                  <button onClick={this.openModal}></button>
                   <ModalPlatinum
                     ref={(node) => {
                       this.modal = node;

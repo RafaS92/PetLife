@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import { Jumbotron, Container, Button } from "react-bootstrap";
+import { Jumbotron, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 Modal.setAppElement("#root");
+
 export default function ModalGold() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   return (
@@ -23,7 +24,7 @@ export default function ModalGold() {
           <Container>
             <div className="row row-cols-2 row-cols-md-2">
               <div className="col mb-2 ">
-                <img src="/images/card2.jpg" className="img-modal" />
+                <img src="/images/card2.jpg" className="img-modal" alt="" />
               </div>
               <div className="col mb-2 card4">
                 <h1>Silver</h1>

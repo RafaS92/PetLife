@@ -13,7 +13,7 @@ class ReviewCard extends Component {
         <div className="carta">
           <div className="face face1">
             <div className="content">
-              <img src={this.state.image} />
+              <img src={this.state.image} alt="" />
               <h3>{this.state.username}</h3>
             </div>
           </div>

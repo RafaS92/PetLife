@@ -29,7 +29,7 @@ export function Login(props) {
     if (success) {
       localStorage.id = id;
       // localStorage.username = username;
-      props.history.push("/", id);
+      props.history.push("/home", id);
     } else {
       alert("incorrect");
     }
@@ -49,7 +49,7 @@ export function Login(props) {
     });
     let { success, id } = await response.json();
     if (success) {
-      props.history.push("/", id);
+      props.history.push("/home", id);
     } else {
       alert("taken username");
     }
