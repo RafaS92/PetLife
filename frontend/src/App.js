@@ -5,7 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Login } from "./components/Login";
 import Home from "./components/Home";
 import "./App.css";
-import NavBar from "./components/NavBar";
 import ServicesList from "./components/ServicesList";
 import Location from "./components/Location";
 import { Jumbotron } from "react-bootstrap";
@@ -65,7 +64,7 @@ class App extends React.Component {
                 <h2>LOCATIONS</h2>
                 <Link to={{ pathname: "/locations" }}>
                   <br />
-                  <img src="/images/map.jpg" className="img-map" />
+                  <img src="/images/map.jpg" alt="" className="img-map" />
                 </Link>
               </div>
             </div>
