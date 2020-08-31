@@ -35,7 +35,7 @@ export default function ModalCreatePet(props) {
     // console.log(parseInt(localStorage.id));
     // localStorage.clear() //to logout
 
-    fetch("http://localhost:3000/pets", {
+    fetch("https://pet-life-deploy2020.herokuapp.com/pets", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -85,6 +85,7 @@ export default function ModalCreatePet(props) {
             <div className="row row-cols-2 row-cols-md-2">
               <div className="col mb-2 ">
                 <img
+                  alt=""
                   src="https://losangeles.cbslocal.com/wp-content/uploads/sites/14984641/2018/05/gettyimages-963167968.jpg?w=1024&h=0&crop=1"
                   className="img-form3"
                   alt=""

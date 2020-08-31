@@ -1,5 +1,8 @@
 import React from "react";
+<<<<<<< HEAD
+=======
 // import Jumbotron from "./Jumbotron";
+>>>>>>> 1dffcae0b577c54420d3e6c3f58b5a9c54a0b17a
 import { Jumbotron, Carousel, Container } from "react-bootstrap";
 import ModalBasic from "./ModalBasic";
 import ModalSilver from "./ModalSilver";
@@ -14,7 +17,6 @@ class Home extends React.Component {
   };
 
   render() {
-    console.log(this.props.location.state);
     return (
       <div>
         <NavBar />
@@ -23,7 +25,6 @@ class Home extends React.Component {
             <source src="/videos/cutDogs.mp4" type="video/mp4" />
           </video>
           <h2>PET LIFE</h2>
-          <p>Your pet is our family</p>
         </div>
 
         <Jumbotron className="Jumbotron4" fluid>
@@ -120,8 +121,13 @@ class Home extends React.Component {
                   </p>
                 </div>
 
+<<<<<<< HEAD
+                <div class="card-body">
+                  <a href="" onClick={this.openModal}></a>
+=======
                 <div className="card-body">
                   <button onClick={this.openModal}></button>
+>>>>>>> 1dffcae0b577c54420d3e6c3f58b5a9c54a0b17a
                   <ModalBasic
                     ref={(node) => {
                       this.modal = node;

@@ -18,7 +18,9 @@ class Booking extends React.Component {
         <NavBar />
         <Jumbotron fluid className="Jumbotron-title">
           <div>
-            <h1>"Your Dog Never Enjoyed So Much"</h1>
+            <h1 className="Jumbotron-title-mkt">
+              "Your Dog Never Enjoyed So Much"
+            </h1>
           </div>
         </Jumbotron>
         <Jumbotron className="Jumbotron-card">

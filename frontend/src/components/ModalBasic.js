@@ -24,7 +24,11 @@ export default function ModalBasic() {
           <Container>
             <div className="row row-cols-2 row-cols-md-2">
               <div className="col mb-2 ">
+<<<<<<< HEAD
+                <img src="/images/card1.jpg" alt="" className="img-modal" />
+=======
                 <img src="/images/card1.jpg" className="img-modal" alt="" />
+>>>>>>> 1dffcae0b577c54420d3e6c3f58b5a9c54a0b17a
               </div>
               <div className="col mb-2 card4">
                 <h1>Basic</h1>
