@@ -4,6 +4,7 @@ import { Jumbotron, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 Modal.setAppElement("#root");
+
 export default function ModalGold() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   return (

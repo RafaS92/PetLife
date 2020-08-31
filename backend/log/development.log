@@ -15374,3 +15374,757 @@ Processing by ReviewsController#index as */*
 Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 1.4ms | Allocations: 3308)
 
 
+Started GET "/reviews" for ::1 at 2020-08-18 22:19:40 -0500
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (1.0ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 14ms (Views: 7.7ms | ActiveRecord: 1.5ms | Allocations: 7993)
+
+
+Started GET "/reviews" for ::1 at 2020-08-18 22:20:42 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.8ms | Allocations: 8012)
+
+
+Started GET "/pets" for ::1 at 2020-08-18 22:20:44 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.7ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 34ms (Views: 21.5ms | ActiveRecord: 1.2ms | Allocations: 6760)
+
+
+Started GET "/reviews" for ::1 at 2020-08-18 22:20:59 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.2ms | Allocations: 3310)
+
+
+Started GET "/reviews" for ::1 at 2020-08-18 22:26:48 -0500
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (1.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 12ms (Views: 6.6ms | ActiveRecord: 1.5ms | Allocations: 7993)
+
+
+Started GET "/pets" for ::1 at 2020-08-19 14:20:40 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/reviews" for ::1 at 2020-08-19 14:20:41 -0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (7.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 303ms (Views: 291.0ms | ActiveRecord: 7.1ms | Allocations: 3382)
+
+
+Processing by PetsController#index as */*
+  [1m[36mPet Load (1.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 115ms (Views: 54.6ms | ActiveRecord: 2.5ms | Allocations: 6885)
+
+
+Started GET "/pets" for ::1 at 2020-08-30 15:32:36 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.5ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 13ms (Views: 6.3ms | ActiveRecord: 0.9ms | Allocations: 7619)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 15:32:45 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (1.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 27ms (Views: 20.8ms | ActiveRecord: 1.8ms | Allocations: 7134)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 15:35:49 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (2.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 16ms (Views: 13.2ms | ActiveRecord: 2.3ms | Allocations: 3310)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 15:40:28 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (1.0ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 38ms (Views: 36.3ms | ActiveRecord: 1.0ms | Allocations: 3310)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 15:42:07 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.8ms | Allocations: 3310)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 15:45:52 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (8.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 55ms (Views: 44.2ms | ActiveRecord: 8.9ms | Allocations: 3295)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 15:46:40 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.2ms | Allocations: 3293)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 15:47:32 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.2ms | Allocations: 3293)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 15:50:21 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 7ms (Views: 7.2ms | ActiveRecord: 0.1ms | Allocations: 3294)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 15:50:53 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.2ms | Allocations: 3294)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 16:00:50 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (1.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 19ms (Views: 14.8ms | ActiveRecord: 1.4ms | Allocations: 3311)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 16:01:15 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (1.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 1.4ms | Allocations: 3293)
+
+
+Started GET "/" for ::1 at 2020-08-30 17:54:17 -0500
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rafas/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rafas/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 53.4ms | Allocations: 306)
+Completed 200 OK in 210ms (Views: 133.2ms | ActiveRecord: 0.0ms | Allocations: 1496)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 17:54:51 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (5.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 136ms (Views: 116.4ms | ActiveRecord: 5.2ms | Allocations: 3345)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 17:56:56 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (4.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 47ms (Views: 32.1ms | ActiveRecord: 4.1ms | Allocations: 3294)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 17:57:23 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (2.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 25ms (Views: 21.9ms | ActiveRecord: 2.8ms | Allocations: 3293)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 17:59:42 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.5ms | Allocations: 3293)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 17:59:58 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 0.4ms | Allocations: 3293)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 18:15:51 -0500
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (1.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 64ms (Views: 49.3ms | ActiveRecord: 1.8ms | Allocations: 3312)
+
+
+Started GET "/pets" for ::1 at 2020-08-30 18:16:03 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (1.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 44ms (Views: 32.4ms | ActiveRecord: 1.3ms | Allocations: 1439)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 18:34:21 -0500
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (1.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 28ms (Views: 24.6ms | ActiveRecord: 1.2ms | Allocations: 3311)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 18:35:56 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 23ms (Views: 22.8ms | ActiveRecord: 0.2ms | Allocations: 3293)
+
+
+Started GET "/pets" for ::1 at 2020-08-30 18:36:02 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (1.1ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 11ms (Views: 7.6ms | ActiveRecord: 1.1ms | Allocations: 1439)
+
+
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20200605195808)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar, "password_digest" varchar, "address" varchar, "email" varchar)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200605195808"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateBookings (20200605195949)
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "bookings" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "pet_id" integer, "services" varchar, "arrival" datetime, "location" varchar, "number_days" integer, "fee" integer)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200605195949"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreatePets (20200605200133)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "pets" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "pet_type" varchar, "breed" varchar, "size" varchar)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200605200133"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateReviews (20200605200240)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "reviews" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "username" varchar, "text" varchar, "image" varchar)[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200605200240"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-08-30 23:38:51.374155"], ["updated_at", "2020-08-30 23:38:51.374155"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mBooking Load (0.2ms)[0m  [1m[34mSELECT "bookings".* FROM "bookings"[0m
+  [1m[36mPet Load (0.1ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Rafael"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "Rafael"], ["password_digest", "$2a$12$sQgirlFKlu29mLF6H5ezg.zKw61Gs3fsR13dSuNWjKUPlXTmjbpGy"], ["address", "Apt. 485 810 Gorczany Glens, New Jannette, MT 17914-2190"], ["email", "fred@windler-bailey.info"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Himelda"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "Himelda"], ["password_digest", "$2a$12$5EX6qbw1JbwugpnO0G0OTeEeXiqNqKfBg6kBZ0p7iZdnh5nf43gGG"], ["address", "Apt. 887 87097 Kelly Manor, Lake Titusstad, CA 52484"], ["email", "breanne_koepp@harber.net"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Venma"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "Venma"], ["password_digest", "$2a$12$HwPe7pxxKJEYtbhXUA6cFeTPNuUxbcfaFnuJjcj/7ib0N5rp1HcSS"], ["address", "Apt. 252 444 Margit Road, Lake Mammieside, VA 31291"], ["email", "brock@kassulke-jones.info"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Eli"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "Eli"], ["password_digest", "$2a$12$bU52d0qLsbyR4bIeJtMjOuxFZTa8/gW9nx7g1U82KjcyJuTNKbt6C"], ["address", "Apt. 980 12816 Huel Rest, Joycechester, OH 60965-2361"], ["email", "kerri.kutch@okeefe-conn.io"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPet Create (0.3ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["name", "churro"], ["pet_type", "Dog"], ["breed", "chihuahua"], ["size", "small"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPet Create (0.3ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["name", "Dali"], ["pet_type", "Dog"], ["breed", "podengo"], ["size", "small"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPet Create (0.3ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["name", "Grump"], ["pet_type", "Cat"], ["breed", "maloroto"], ["size", "small"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBooking Create (0.3ms)[0m  [1m[32mINSERT INTO "bookings" ("user_id", "pet_id", "services", "location", "fee") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 1], ["pet_id", 1], ["services", "platinum"], ["location", "Downtown"], ["fee", 10]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBooking Create (0.2ms)[0m  [1m[32mINSERT INTO "bookings" ("user_id", "pet_id", "services", "location", "fee") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["pet_id", 2], ["services", "gold"], ["location", "Sugar Land"], ["fee", 10]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Otilia"], ["text", "The owner is very dedicated to taking excellent care of your dog. Great doggie daycare and grooming services."], ["image", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQqsRkKq2KF5lPA6kRwazt3JXrgWwmLRNnfkola9M15K5-D6LAX&usqp=CAU"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["username", "William"], ["text", "My dog loves this place! That is all that needs to be said."], ["image", "https://hips.hearstapps.com/wdy.h-cdn.co/assets/17/39/1506709524-cola-0247.jpg?crop=1.00xw:0.750xh;0,0.226xh&resize=480:*"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["username", "Abe"], ["text", "Great place for pet care/boarding (museum district). Friendly and caring staff."], ["image", "https://cdn.mos.cms.futurecdn.net/JzqhuEDTRfCZKMKHUxPySB.jpg"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Josiah"], ["text", "Exceptional pet care! I’ve brought my dog here for several years - grooming, day care and boarding. The day care has helped immensely with anxiety, and she’s become playful and happy to interact with other dogs."], ["image", "https://topdogtips.com/wp-content/uploads/2014/12/Top-10-Cute-Dog-Breeds-Who-Wins-1.jpg"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Efren"], ["text", "Our dog went here for 2 years (until we moved away). His tail would start wagging as soon as he saw the building and the people. One of the best (dog) daycares in Houston!"], ["image", "https://cdn.images.express.co.uk/img/dynamic/128/590x/Emerald-is-twisted-and-deformed-thanks-to-over-breeding-of-fad-handbag-dogs-959601.jpg"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.4ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Skye"], ["text", "Very accommodating, very friendly staff"], ["image", "https://images.theconversation.com/files/73544/original/image-20150302-15950-6porsa.jpg?ixlib=rb-1.1.0&rect=0%2C16%2C2738%2C1647&q=45&auto=format&w=926&fit=clip"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["username", "Herta"], ["text", "Board my 11 year old chi-mix here several times a year & they always take great care of him."], ["image", "https://www.mydomaine.com/thmb/P20JXc9SYLxlRUSn9NL0Fig3nZI=/700x499/filters:no_upscale():max_bytes(150000):strip_icc()/cdn.cliqueinc.com__cache__posts__271341__smartest-dog-breeds-271341-1540932079817-image.700x0c-c7803ea9de244bc0a8e9bdf7b4d9cd61.jpg"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["username", "Thi"], ["text", "Really nice pet hotel with reasonable prices and kind staff"], ["image", "https://i2-prod.coventrytelegraph.net/incoming/article17702046.ece/ALTERNATES/s1200b/1_JS205555318.jpg"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Ted"], ["text", "I've FINALLY found the perfect place for my mini-poodle mutt Augie. They actually know how to treat dogs! Thank you so much, I bet Augie can't wait to go back!"], ["image", "https://photos.clevescene.com/wp-content/uploads/2020/03/APL-Annie.jpg"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Ned"], ["text", "This place also offers grooming if you need it for an extra charge. I have called around different places and they have the best pricing in my area. The place is very clean and well organized. The staff is wonderful as well."], ["image", "https://www.rd.com/wp-content/uploads/2019/01/shutterstock_115329475.jpg"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Kenneth"], ["text", "They are just fantastic. It is a huge air conditioned place where they sleep. My dogs never want to come home with me. They are priced reasonably. She will take pictures of your dogs and send them to you. She rotates the dogs throughout the day so they get exercise ."], ["image", "https://usercontent2.hubstatic.com/14567513_f520.jpg"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Latina"], ["text", "They took great care of my dog Jack! Everyone was very friendly!"], ["image", "https://cdn.newsapi.com.au/image/v1/9e6905b6b44f219256d80c66e16df365"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Frederica"], ["text", "Pet Life  do an excellent job caring for my dogs. They respond immediately when I make a request for service and is extremely reliable. I completely trust them and I know my dogs are in good hands when I am gone."], ["image", "https://merchdope.com/wp-content/uploads/2018/10/Beagle-dog-1.jpg"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Amos"], ["text", "Best Pet hotel ever. The people are awesome and kind and the facilities are clean and comfortable for my doggie."], ["image", "https://www.rover.com/blog/wp-content/uploads/2015/09/teddy-bear-dog-960x540.jpg"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Potter"], ["text", "Friendly staff and always take excellent care of my dog during boarding or doggie daycare. Clean and organized Pet Hotel with excellent dog grooming service as well."], ["image", "https://hgtvhome.sndimg.com/content/dam/images/hgtv/products/2019/10/7/rx_amazon-dog-costumewizard-dog-costume.jpeg.rend.hgtvcom.966.966.suffix/1570470965458.jpeg"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["username", "Rebbeca"], ["text", "Pet Life is a very good company and I highly recommend them.They trained our dog well. We can now leave the front door open, walk away and he will not leave."], ["image", "https://d17fnq9dkz9hgj.cloudfront.net/uploads/2018/04/Corgi-Pembroke_01.jpeg"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["username", "Jasper"], ["text", "Awesome staff, AMAZING facility (don't let the outside fool you)."], ["image", "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/funny-dog-captions-1563456605.jpg?crop=0.747xw:1.00xh;0.0459xw,0&resize=480:*"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Maureen"], ["text", "Our dog loves to go there for boarding. He has separation anxiety, and he doesn't even look back to say good bye when we drop him off. If he didn't like it there, he wouldn't be as happy as he is there."], ["image", "https://i1.wp.com/bestlifeonline.com/wp-content/uploads/2019/01/afghan-hound.jpg?resize=1024%2C681&ssl=1"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Vikki"], ["text", "Well priced. Clean facility and nice staff."], ["image", "https://www.armadatekstil.net/wp-content/uploads/2014/03/cute-medium-sized-dog-breeds.png"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Marx"], ["text", "I have never been here probably never will but Google refuses to remove it off of my timeline so I guess I'm leaving a four-star review"], ["image", "https://www.mydomaine.com/thmb/C9a-E9UapXJZxrzIZvKiMN_ZStc=/980x700/filters:no_upscale():max_bytes(150000):strip_icc()/cdn.cliqueinc.com__cache__posts__267473__medium-dog-breeds-267473-1536705485812-main.700x0c-4ea1d5dbe10c4e2b90c6d3576a58b283.jpg"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.5ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Goku"], ["text", "Will definitely be bringing my dog again here! He was taken care of and fed and when he was picked up I saw how well he was cared for!"], ["image", "https://cdn.shopify.com/s/files/1/1465/0432/products/il_570xN.598707123_fvs5_grande.jpg?v=1472714653"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Taquirooo"], ["text", "I travel for work, sometimes with a ton of warning and sometimes with no warning. No issues with me last minute boarding my dog. Staff is friendly. No issues when I call."], ["image", "https://www.maskerix.com/wp-content/uploads/2019/04/diy-taco-dog-costume.jpg"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/reviews" for ::1 at 2020-08-30 18:39:46 -0500
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (1.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 15ms (Views: 8.2ms | ActiveRecord: 1.7ms | Allocations: 7702)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20200605195808)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar, "password_digest" varchar, "address" varchar, "email" varchar)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200605195808"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateBookings (20200605195949)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "bookings" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "pet_id" integer, "services" varchar, "arrival" datetime, "location" varchar, "number_days" integer, "fee" integer)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200605195949"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreatePets (20200605200133)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "pets" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "pet_type" varchar, "breed" varchar, "size" varchar)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200605200133"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateReviews (20200605200240)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "reviews" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "username" varchar, "text" varchar, "image" varchar)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200605200240"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-08-30 23:41:28.769738"], ["updated_at", "2020-08-30 23:41:28.769738"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mBooking Load (0.1ms)[0m  [1m[34mSELECT "bookings".* FROM "bookings"[0m
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Rafael"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "Rafael"], ["password_digest", "$2a$12$OwWThoFjdtl0huOX/w6heehiY9AQp0gNeHiKLKwIXA.V3EP7VuYEC"], ["address", "Apt. 314 9974 Zboncak Field, South Jessieport, AZ 55269"], ["email", "barbara.muller@howe.biz"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Himelda"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "Himelda"], ["password_digest", "$2a$12$szoYNa0gGPRiBCw0z0AxyesmoMWADVTY6ahnwrf50E742EzBPDFCi"], ["address", "19482 Torrie Corners, West Mitchel, MI 15691-7028"], ["email", "victor@hills.org"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Venma"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "Venma"], ["password_digest", "$2a$12$V19lJA4oSaOd1bhxmKcKHO4rC7WOoVon/hDgmmNiP6skjWy7h6adm"], ["address", "Suite 999 58920 Bauch Ville, Fidelchester, WI 86368-9221"], ["email", "sheree.daniel@mccullough.biz"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Tory"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "Tory"], ["password_digest", "$2a$12$bjFSoCCsJvk0/36./rpCTeNd0309s7pDKA5MdjFsQocrnt658Z7nC"], ["address", "Apt. 784 544 Christel Island, Muellerhaven, AZ 90614"], ["email", "curtis_heathcote@russel.biz"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPet Create (0.3ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["name", "churro"], ["pet_type", "Dog"], ["breed", "chihuahua"], ["size", "small"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPet Create (0.3ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["name", "Dali"], ["pet_type", "Dog"], ["breed", "podengo"], ["size", "small"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPet Create (0.3ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["name", "Grump"], ["pet_type", "Cat"], ["breed", "maloroto"], ["size", "small"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBooking Create (0.3ms)[0m  [1m[32mINSERT INTO "bookings" ("user_id", "pet_id", "services", "location", "fee") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 1], ["pet_id", 1], ["services", "platinum"], ["location", "Downtown"], ["fee", 10]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBooking Create (0.3ms)[0m  [1m[32mINSERT INTO "bookings" ("user_id", "pet_id", "services", "location", "fee") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["pet_id", 2], ["services", "gold"], ["location", "Sugar Land"], ["fee", 10]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Joannie"], ["text", "The owner is very dedicated to taking excellent care of your dog. Great doggie daycare and grooming services."], ["image", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQqsRkKq2KF5lPA6kRwazt3JXrgWwmLRNnfkola9M15K5-D6LAX&usqp=CAU"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.5ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["username", "Rose"], ["text", "My dog loves this place! That is all that needs to be said."], ["image", "https://hips.hearstapps.com/wdy.h-cdn.co/assets/17/39/1506709524-cola-0247.jpg?crop=1.00xw:0.750xh;0,0.226xh&resize=480:*"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["username", "Shin"], ["text", "Great place for pet care/boarding (museum district). Friendly and caring staff."], ["image", "https://cdn.mos.cms.futurecdn.net/JzqhuEDTRfCZKMKHUxPySB.jpg"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Ferdinand"], ["text", "Exceptional pet care! I’ve brought my dog here for several years - grooming, day care and boarding. The day care has helped immensely with anxiety, and she’s become playful and happy to interact with other dogs."], ["image", "https://topdogtips.com/wp-content/uploads/2014/12/Top-10-Cute-Dog-Breeds-Who-Wins-1.jpg"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Lino"], ["text", "Our dog went here for 2 years (until we moved away). His tail would start wagging as soon as he saw the building and the people. One of the best (dog) daycares in Houston!"], ["image", "https://cdn.images.express.co.uk/img/dynamic/128/590x/Emerald-is-twisted-and-deformed-thanks-to-over-breeding-of-fad-handbag-dogs-959601.jpg"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Enedina"], ["text", "Very accommodating, very friendly staff"], ["image", "https://images.theconversation.com/files/73544/original/image-20150302-15950-6porsa.jpg?ixlib=rb-1.1.0&rect=0%2C16%2C2738%2C1647&q=45&auto=format&w=926&fit=clip"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["username", "Buffy"], ["text", "Board my 11 year old chi-mix here several times a year & they always take great care of him."], ["image", "https://www.mydomaine.com/thmb/P20JXc9SYLxlRUSn9NL0Fig3nZI=/700x499/filters:no_upscale():max_bytes(150000):strip_icc()/cdn.cliqueinc.com__cache__posts__271341__smartest-dog-breeds-271341-1540932079817-image.700x0c-c7803ea9de244bc0a8e9bdf7b4d9cd61.jpg"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["username", "Calvin"], ["text", "Really nice pet hotel with reasonable prices and kind staff"], ["image", "https://i2-prod.coventrytelegraph.net/incoming/article17702046.ece/ALTERNATES/s1200b/1_JS205555318.jpg"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Shiloh"], ["text", "I've FINALLY found the perfect place for my mini-poodle mutt Augie. They actually know how to treat dogs! Thank you so much, I bet Augie can't wait to go back!"], ["image", "https://photos.clevescene.com/wp-content/uploads/2020/03/APL-Annie.jpg"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Jared"], ["text", "This place also offers grooming if you need it for an extra charge. I have called around different places and they have the best pricing in my area. The place is very clean and well organized. The staff is wonderful as well."], ["image", "https://www.rd.com/wp-content/uploads/2019/01/shutterstock_115329475.jpg"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Therese"], ["text", "They are just fantastic. It is a huge air conditioned place where they sleep. My dogs never want to come home with me. They are priced reasonably. She will take pictures of your dogs and send them to you. She rotates the dogs throughout the day so they get exercise ."], ["image", "https://usercontent2.hubstatic.com/14567513_f520.jpg"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Mervin"], ["text", "They took great care of my dog Jack! Everyone was very friendly!"], ["image", "https://cdn.newsapi.com.au/image/v1/9e6905b6b44f219256d80c66e16df365"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Waylon"], ["text", "Pet Life  do an excellent job caring for my dogs. They respond immediately when I make a request for service and is extremely reliable. I completely trust them and I know my dogs are in good hands when I am gone."], ["image", "https://merchdope.com/wp-content/uploads/2018/10/Beagle-dog-1.jpg"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Clement"], ["text", "Best Pet hotel ever. The people are awesome and kind and the facilities are clean and comfortable for my doggie."], ["image", "https://www.rover.com/blog/wp-content/uploads/2015/09/teddy-bear-dog-960x540.jpg"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Potter"], ["text", "Friendly staff and always take excellent care of my dog during boarding or doggie daycare. Clean and organized Pet Hotel with excellent dog grooming service as well."], ["image", "https://hgtvhome.sndimg.com/content/dam/images/hgtv/products/2019/10/7/rx_amazon-dog-costumewizard-dog-costume.jpeg.rend.hgtvcom.966.966.suffix/1570470965458.jpeg"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["username", "Matt"], ["text", "Pet Life is a very good company and I highly recommend them.They trained our dog well. We can now leave the front door open, walk away and he will not leave."], ["image", "https://d17fnq9dkz9hgj.cloudfront.net/uploads/2018/04/Corgi-Pembroke_01.jpeg"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["username", "Kelle"], ["text", "Awesome staff, AMAZING facility (don't let the outside fool you)."], ["image", "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/funny-dog-captions-1563456605.jpg?crop=0.747xw:1.00xh;0.0459xw,0&resize=480:*"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Brandy"], ["text", "Our dog loves to go there for boarding. He has separation anxiety, and he doesn't even look back to say good bye when we drop him off. If he didn't like it there, he wouldn't be as happy as he is there."], ["image", "https://i1.wp.com/bestlifeonline.com/wp-content/uploads/2019/01/afghan-hound.jpg?resize=1024%2C681&ssl=1"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Numbers"], ["text", "Well priced. Clean facility and nice staff."], ["image", "https://www.armadatekstil.net/wp-content/uploads/2014/03/cute-medium-sized-dog-breeds.png"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Corine"], ["text", "I have never been here probably never will but Google refuses to remove it off of my timeline so I guess I'm leaving a four-star review"], ["image", "https://www.mydomaine.com/thmb/C9a-E9UapXJZxrzIZvKiMN_ZStc=/980x700/filters:no_upscale():max_bytes(150000):strip_icc()/cdn.cliqueinc.com__cache__posts__267473__medium-dog-breeds-267473-1536705485812-main.700x0c-4ea1d5dbe10c4e2b90c6d3576a58b283.jpg"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Goku"], ["text", "Will definitely be bringing my dog again here! He was taken care of and fed and when he was picked up I saw how well he was cared for!"], ["image", "https://cdn.shopify.com/s/files/1/1465/0432/products/il_570xN.598707123_fvs5_grande.jpg?v=1472714653"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Taquirooo"], ["text", "I travel for work, sometimes with a ton of warning and sometimes with no warning. No issues with me last minute boarding my dog. Staff is friendly. No issues when I call."], ["image", "https://www.maskerix.com/wp-content/uploads/2019/04/diy-taco-dog-costume.jpg"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Laverne"], ["text", "The owner is very dedicated to taking excellent care of your dog. Great doggie daycare and grooming services."], ["image", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQqsRkKq2KF5lPA6kRwazt3JXrgWwmLRNnfkola9M15K5-D6LAX&usqp=CAU"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/reviews" for ::1 at 2020-08-30 18:41:48 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 9ms (Views: 5.6ms | ActiveRecord: 0.7ms | Allocations: 7806)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20200605195808)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar, "password_digest" varchar, "address" varchar, "email" varchar)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200605195808"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateBookings (20200605195949)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "bookings" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "pet_id" integer, "services" varchar, "arrival" datetime, "location" varchar, "number_days" integer, "fee" integer)[0m
+  [1m[36mprimary::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200605195949"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreatePets (20200605200133)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "pets" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "pet_type" varchar, "breed" varchar, "size" varchar)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200605200133"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateReviews (20200605200240)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "reviews" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "username" varchar, "text" varchar, "image" varchar)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200605200240"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-08-30 23:42:57.903573"], ["updated_at", "2020-08-30 23:42:57.903573"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mBooking Load (0.1ms)[0m  [1m[34mSELECT "bookings".* FROM "bookings"[0m
+  [1m[36mPet Load (0.1ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Rafael"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "Rafael"], ["password_digest", "$2a$12$bxeJp6flnK/ZSaVdXfjbk.myRjiFmtyTRRfCjdQXxQElNRfbnete2"], ["address", "Suite 298 897 Chassidy Roads, Bertabury, TN 04437-2715"], ["email", "catrina.dibbert@rau.name"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Himelda"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "Himelda"], ["password_digest", "$2a$12$kZCklG8MjNDrgzq8qN3JXeP.NCYtjktp6m0mKpxpAm4yqPBjjX2EG"], ["address", "Apt. 516 37071 Tuan Square, Verdatown, WY 12633-4715"], ["email", "shawanda@maggio.biz"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Venma"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "Venma"], ["password_digest", "$2a$12$jTvEekbnSPGq0qUfQGVhUePMVY.Wo4JVqQ.jhDrFDJHwsPso1vweK"], ["address", "244 Anderson Dale, Carrollmouth, AR 31849"], ["email", "lisandra.kuhic@shanahan-abshire.io"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Bernardo"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "Bernardo"], ["password_digest", "$2a$12$/ILWKg36fIzrUvl1bkgA7uIps4UTHntYTp5fNSyXuPJPtqV2um61O"], ["address", "89888 Cummings Views, North Valerieview, MA 78957-6428"], ["email", "chuck@goodwin-stroman.name"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPet Create (0.3ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["name", "churro"], ["pet_type", "Dog"], ["breed", "chihuahua"], ["size", "small"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPet Create (0.3ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["name", "Dali"], ["pet_type", "Dog"], ["breed", "podengo"], ["size", "small"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPet Create (0.3ms)[0m  [1m[32mINSERT INTO "pets" ("user_id", "name", "pet_type", "breed", "size") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["name", "Grump"], ["pet_type", "Cat"], ["breed", "maloroto"], ["size", "small"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBooking Create (0.3ms)[0m  [1m[32mINSERT INTO "bookings" ("user_id", "pet_id", "services", "location", "fee") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 1], ["pet_id", 1], ["services", "platinum"], ["location", "Downtown"], ["fee", 10]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBooking Create (0.3ms)[0m  [1m[32mINSERT INTO "bookings" ("user_id", "pet_id", "services", "location", "fee") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["pet_id", 2], ["services", "gold"], ["location", "Sugar Land"], ["fee", 10]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Jim"], ["text", "The owner is very dedicated to taking excellent care of your dog. Great doggie daycare and grooming services."], ["image", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQqsRkKq2KF5lPA6kRwazt3JXrgWwmLRNnfkola9M15K5-D6LAX&usqp=CAU"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["username", "Mirta"], ["text", "My dog loves this place! That is all that needs to be said."], ["image", "https://hips.hearstapps.com/wdy.h-cdn.co/assets/17/39/1506709524-cola-0247.jpg?crop=1.00xw:0.750xh;0,0.226xh&resize=480:*"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["username", "Joel"], ["text", "Great place for pet care/boarding (museum district). Friendly and caring staff."], ["image", "https://cdn.mos.cms.futurecdn.net/JzqhuEDTRfCZKMKHUxPySB.jpg"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.5ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Edwin"], ["text", "Exceptional pet care! I’ve brought my dog here for several years - grooming, day care and boarding. The day care has helped immensely with anxiety, and she’s become playful and happy to interact with other dogs."], ["image", "https://topdogtips.com/wp-content/uploads/2014/12/Top-10-Cute-Dog-Breeds-Who-Wins-1.jpg"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Dominique"], ["text", "Our dog went here for 2 years (until we moved away). His tail would start wagging as soon as he saw the building and the people. One of the best (dog) daycares in Houston!"], ["image", "https://cdn.images.express.co.uk/img/dynamic/128/590x/Emerald-is-twisted-and-deformed-thanks-to-over-breeding-of-fad-handbag-dogs-959601.jpg"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Roxana"], ["text", "Very accommodating, very friendly staff"], ["image", "https://images.theconversation.com/files/73544/original/image-20150302-15950-6porsa.jpg?ixlib=rb-1.1.0&rect=0%2C16%2C2738%2C1647&q=45&auto=format&w=926&fit=clip"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["username", "Wade"], ["text", "Board my 11 year old chi-mix here several times a year & they always take great care of him."], ["image", "https://www.mydomaine.com/thmb/P20JXc9SYLxlRUSn9NL0Fig3nZI=/700x499/filters:no_upscale():max_bytes(150000):strip_icc()/cdn.cliqueinc.com__cache__posts__271341__smartest-dog-breeds-271341-1540932079817-image.700x0c-c7803ea9de244bc0a8e9bdf7b4d9cd61.jpg"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["username", "Edith"], ["text", "Really nice pet hotel with reasonable prices and kind staff"], ["image", "https://i2-prod.coventrytelegraph.net/incoming/article17702046.ece/ALTERNATES/s1200b/1_JS205555318.jpg"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Jen"], ["text", "I've FINALLY found the perfect place for my mini-poodle mutt Augie. They actually know how to treat dogs! Thank you so much, I bet Augie can't wait to go back!"], ["image", "https://photos.clevescene.com/wp-content/uploads/2020/03/APL-Annie.jpg"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Dina"], ["text", "This place also offers grooming if you need it for an extra charge. I have called around different places and they have the best pricing in my area. The place is very clean and well organized. The staff is wonderful as well."], ["image", "https://www.rd.com/wp-content/uploads/2019/01/shutterstock_115329475.jpg"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Andy"], ["text", "They are just fantastic. It is a huge air conditioned place where they sleep. My dogs never want to come home with me. They are priced reasonably. She will take pictures of your dogs and send them to you. She rotates the dogs throughout the day so they get exercise ."], ["image", "https://usercontent2.hubstatic.com/14567513_f520.jpg"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Trudi"], ["text", "They took great care of my dog Jack! Everyone was very friendly!"], ["image", "https://cdn.newsapi.com.au/image/v1/9e6905b6b44f219256d80c66e16df365"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Renetta"], ["text", "Pet Life  do an excellent job caring for my dogs. They respond immediately when I make a request for service and is extremely reliable. I completely trust them and I know my dogs are in good hands when I am gone."], ["image", "https://merchdope.com/wp-content/uploads/2018/10/Beagle-dog-1.jpg"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Keven"], ["text", "Best Pet hotel ever. The people are awesome and kind and the facilities are clean and comfortable for my doggie."], ["image", "https://www.rover.com/blog/wp-content/uploads/2015/09/teddy-bear-dog-960x540.jpg"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Potter"], ["text", "Friendly staff and always take excellent care of my dog during boarding or doggie daycare. Clean and organized Pet Hotel with excellent dog grooming service as well."], ["image", "https://hgtvhome.sndimg.com/content/dam/images/hgtv/products/2019/10/7/rx_amazon-dog-costumewizard-dog-costume.jpeg.rend.hgtvcom.966.966.suffix/1570470965458.jpeg"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["username", "Rafaela"], ["text", "Pet Life is a very good company and I highly recommend them.They trained our dog well. We can now leave the front door open, walk away and he will not leave."], ["image", "https://d17fnq9dkz9hgj.cloudfront.net/uploads/2018/04/Corgi-Pembroke_01.jpeg"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["username", "Xavier"], ["text", "Awesome staff, AMAZING facility (don't let the outside fool you)."], ["image", "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/funny-dog-captions-1563456605.jpg?crop=0.747xw:1.00xh;0.0459xw,0&resize=480:*"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Joslyn"], ["text", "Our dog loves to go there for boarding. He has separation anxiety, and he doesn't even look back to say good bye when we drop him off. If he didn't like it there, he wouldn't be as happy as he is there."], ["image", "https://i1.wp.com/bestlifeonline.com/wp-content/uploads/2019/01/afghan-hound.jpg?resize=1024%2C681&ssl=1"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Randolph"], ["text", "Well priced. Clean facility and nice staff."], ["image", "https://www.armadatekstil.net/wp-content/uploads/2014/03/cute-medium-sized-dog-breeds.png"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Klara"], ["text", "I have never been here probably never will but Google refuses to remove it off of my timeline so I guess I'm leaving a four-star review"], ["image", "https://www.mydomaine.com/thmb/C9a-E9UapXJZxrzIZvKiMN_ZStc=/980x700/filters:no_upscale():max_bytes(150000):strip_icc()/cdn.cliqueinc.com__cache__posts__267473__medium-dog-breeds-267473-1536705485812-main.700x0c-4ea1d5dbe10c4e2b90c6d3576a58b283.jpg"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Goku"], ["text", "Will definitely be bringing my dog again here! He was taken care of and fed and when he was picked up I saw how well he was cared for!"], ["image", "https://cdn.shopify.com/s/files/1/1465/0432/products/il_570xN.598707123_fvs5_grande.jpg?v=1472714653"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 3], ["username", "Taquirooo"], ["text", "I travel for work, sometimes with a ton of warning and sometimes with no warning. No issues with me last minute boarding my dog. Staff is friendly. No issues when I call."], ["image", "https://www.maskerix.com/wp-content/uploads/2019/04/diy-taco-dog-costume.jpg"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["username", "Veronique"], ["text", "The owner is very dedicated to taking excellent care of your dog. Great doggie daycare and grooming services."], ["image", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQqsRkKq2KF5lPA6kRwazt3JXrgWwmLRNnfkola9M15K5-D6LAX&usqp=CAU"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("user_id", "username", "text", "image") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["username", "Bill"], ["text", "Great place for pet care/boarding (museum district). Friendly and caring staff."], ["image", "https://cdn.mos.cms.futurecdn.net/JzqhuEDTRfCZKMKHUxPySB.jpg"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/reviews" for ::1 at 2020-08-30 18:43:24 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 15ms (Views: 12.1ms | ActiveRecord: 1.3ms | Allocations: 7930)
+
+
+Started GET "/pets" for ::1 at 2020-08-30 18:55:17 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PetsController#index as */*
+  [1m[36mPet Load (2.4ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 60ms (Views: 39.9ms | ActiveRecord: 3.0ms | Allocations: 6581)
+
+
+Started GET "/pets" for ::1 at 2020-08-30 18:57:59 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.1ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 20ms (Views: 20.1ms | ActiveRecord: 0.1ms | Allocations: 1137)
+
+
+Started GET "/pets" for ::1 at 2020-08-30 18:58:18 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.1ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.1ms | Allocations: 1136)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 18:58:22 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (0.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.7ms | Allocations: 3237)
+
+
+Started POST "/users" for ::1 at 2020-08-30 19:03:38 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"mami", "password"=>"[FILTERED]", "address"=>"8639 Greiner Drive", "email"=>"manrvaldez.22@gmail.com", "user"=>{"username"=>"mami", "address"=>"8639 Greiner Drive", "email"=>"manrvaldez.22@gmail.com"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "mami"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "mami"], ["password_digest", "$2a$12$V/v.nkVdpZpqF03vHJuZROQbc6TIssfGqZUDn4lg3gYxk.ryIIbw2"], ["address", "8639 Greiner Drive"], ["email", "manrvaldez.22@gmail.com"]]
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? AND "users"."id" != ? LIMIT ?[0m  [["username", "mami"], ["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Completed 200 OK in 445ms (Views: 0.3ms | ActiveRecord: 4.6ms | Allocations: 8369)
+
+
+Started GET "/pets" for ::1 at 2020-08-30 19:04:03 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.7ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.7ms | Allocations: 1138)
+
+
+Started GET "/pets" for ::1 at 2020-08-30 19:05:14 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.2ms | Allocations: 1119)
+
+
+Started GET "/pets" for ::1 at 2020-08-30 19:05:50 -0500
+Processing by PetsController#index as */*
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  ↳ app/controllers/pets_controller.rb:17:in `index'
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.2ms | Allocations: 1119)
+
+
+Started GET "/reviews" for ::1 at 2020-08-30 19:08:04 -0500
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (2.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:20:in `index'
+Completed 200 OK in 47ms (Views: 37.0ms | ActiveRecord: 2.6ms | Allocations: 3220)
+
+
+Started POST "/users" for ::1 at 2020-08-30 19:09:05 -0500
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"tete", "password"=>"[FILTERED]", "address"=>"6130 Lago Mar Blvd", "email"=>"rvaldezdev.2020@gmail.com", "user"=>{"username"=>"tete", "address"=>"6130 Lago Mar Blvd", "email"=>"rvaldezdev.2020@gmail.com"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (1.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "tete"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "address", "email") VALUES (?, ?, ?, ?)[0m  [["username", "tete"], ["password_digest", "$2a$12$2MWKR79QNQ2ilCqcP32RPeWbLdjfihCQkhGZLuShdG7h7GedlAFXa"], ["address", "6130 Lago Mar Blvd"], ["email", "rvaldezdev.2020@gmail.com"]]
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? AND "users"."id" != ? LIMIT ?[0m  [["username", "tete"], ["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Completed 200 OK in 437ms (Views: 0.4ms | ActiveRecord: 4.2ms | Allocations: 4472)
+
+

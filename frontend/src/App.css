@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
 
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 .App-color {
   text-align: center;
   background-color: whitesmoke;
@@ -118,7 +125,7 @@
 .carousel-item img {
   padding-top: 10px;
   font-weight: bold;
-  height: 450px;
+  height: 400px;
   width: 100%;
 }
 
@@ -198,7 +205,8 @@
 
 .Jumbotron-title h1 {
   position: relative;
-  left: 900px;
+  left: 650px;
+  top: -30px;
 }
 
 .JumbotronF {
@@ -242,9 +250,9 @@
   background-image: url("https://marketplace.canva.com/EAD29RnUHXo/2/0/800w/canva-turquoise-dogs-and-paw-print-cute-zoom-virtual-background-uiJpWff6HkU.jpg");
   font-weight: bold;
   padding: 10px;
-  margin-top: 70px;
+  margin-top: 20px;
+  width: auto;
   height: 500px;
-  width: 1573px;
   background-position: center;
   margin-bottom: 0px;
   font-family: "Roboto Slab";
@@ -265,6 +273,7 @@
   padding: 50px;
   padding-top: 20;
   margin-bottom: 0px;
+  margin-top: 30px;
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -294,8 +303,15 @@
   font-family: "Roboto Slab";
 }
 
+.flex-card {
+  text-align: center;
+  margin: 1em;
+  flex: 1 1 auto;
+  outline: 1px solid blue;
+}
+
 .card {
-  width: 20rem;
+  width: 290px;
   height: 470px;
 }
 
@@ -373,12 +389,16 @@
 
 .Jumbotron-card {
   background-color: #f3f3f3;
-
   font-weight: bold;
   padding: 40px;
   background-size: cover;
   background-position: center;
   box-shadow: 10px 10px 5px 0px black;
+}
+
+.card-containerS {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .Jumbotron-card2 {
@@ -451,19 +471,15 @@ img-form-jumbo {
   padding-left: 90px;
 }
 
-.container3 {
-  width: 1000px;
-  position: relative;
+.cards-container {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  margin-right: 20px;
-  margin-left: 20px;
+  flex-wrap: wrap;
 }
 
-.container3 .carta {
-  position: relative;
-  cursor: pointer;
+.container3 {
+  flex: auto;
+  width: auto;
+  background-color: #f8eaea;
 }
 
 .container3 .carta .face {

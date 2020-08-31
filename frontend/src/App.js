@@ -19,8 +19,8 @@ class App extends React.Component {
       <div className="App-color container">
         <BrowserRouter>
           <Switch>
-            <Route exact path="/login" component={Login} />
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={Login} />
+            <Route exact path="/home" component={Home} />
             <Route exact path="/services" component={ServicesList} />
             <Route exact path="/locations" component={Location} />
             <Route exact path="/booking" component={Booking} />

@@ -14,7 +14,6 @@ class Home extends React.Component {
   };
 
   render() {
-    console.log(this.props.location.state);
     return (
       <div>
         <NavBar />
@@ -23,7 +22,6 @@ class Home extends React.Component {
             <source src="/videos/cutDogs.mp4" type="video/mp4" />
           </video>
           <h2>PET LIFE</h2>
-          <p>Your pet is our family</p>
         </div>
 
         <Jumbotron className="Jumbotron4" fluid>
