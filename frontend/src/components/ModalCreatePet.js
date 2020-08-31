@@ -35,7 +35,7 @@ export default function ModalCreatePet(props) {
     // console.log(parseInt(localStorage.id));
     // localStorage.clear() //to logout
 
-    fetch("http://localhost:3000/pets", {
+    fetch("http://:3000/pets", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

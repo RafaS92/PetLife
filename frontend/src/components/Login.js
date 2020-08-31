@@ -14,17 +14,20 @@ export function Login(props) {
   });
   async function handleSubmit(e) {
     e.preventDefault();
-    let response = await fetch("http://localhost:3000/login", {
-      credentials: "include",
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        username: user.username,
-        password: user.password,
-      }),
-    });
+    let response = await fetch(
+      "https://pet-life-deploy2020.herokuapp.com//login",
+      {
+        credentials: "include",
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          username: user.username,
+          password: user.password,
+        }),
+      }
+    );
     let { success, id } = await response.json();
     if (success) {
       localStorage.id = id;
@@ -36,17 +39,20 @@ export function Login(props) {
   }
   async function handleCreate(e) {
     e.preventDefault();
-    let response = await fetch("http://localhost:3000/users", {
-      credentials: "include",
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        username: new_user.new_username,
-        password: new_user.new_password,
-        address: new_user.new_address,
-        email: new_user.new_email,
-      }),
-    });
+    let response = await fetch(
+      "https://pet-life-deploy2020.herokuapp.com//users",
+      {
+        credentials: "include",
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          username: new_user.new_username,
+          password: new_user.new_password,
+          address: new_user.new_address,
+          email: new_user.new_email,
+        }),
+      }
+    );
     let { success, id } = await response.json();
     if (success) {
       props.history.push("/home", id);

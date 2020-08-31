@@ -10,7 +10,7 @@ class Comunity extends React.Component {
   };
 
   componentDidMount() {
-    fetch("http://localhost:3000/reviews")
+    fetch("https://pet-life-deploy2020.herokuapp.com//reviews")
       .then((resp) => resp.json())
       .then((reviews) => {
         this.setState({
@@ -21,7 +21,7 @@ class Comunity extends React.Component {
 
   handleSubmit = (review) => {
     let id = parseInt(localStorage.id);
-    fetch("http://localhost:3000/reviews", {
+    fetch("https://pet-life-deploy2020.herokuapp.com//reviews", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
