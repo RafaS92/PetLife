@@ -43,3 +43,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "faker", "~> 2.11"
 
 gem "unirest", "~> 1.1"
+gem 'rake'
