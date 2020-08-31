@@ -7,10 +7,8 @@ import Home from "./components/Home";
 import "./App.css";
 import ServicesList from "./components/ServicesList";
 import Location from "./components/Location";
-
 import Booking from "./components/Booking";
 import Comunity from "./components/Comunity";
-import ReviewList from "./components/ReviewList";
 import Footer from "./components/Footer";
 
 class App extends React.Component {
@@ -25,7 +23,6 @@ class App extends React.Component {
             <Route exact path="/locations" component={Location} />
             <Route exact path="/booking" component={Booking} />
             <Route exact path="/comunity" component={Comunity} />
-            <Route exact path="/r" component={ReviewList} />
           </Switch>
           <Footer />
         </BrowserRouter>
